@@ -1,0 +1,38 @@
+{
+    "short_name": "FitforKids",
+    "name": "FitforKids",
+    "theme_color": "#4A90E2",
+    "background_color": "#F7F8F9",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "assets/favicons/apple-icon-57x57.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "assets/favicons/favicon-96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "assets/favicons/apple-icon-152x152.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/favicons/apple-icon-180x180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "assets/favicons/android-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+      
+    ],
+    "start_url": "https://www.fitforkids.dk/"
+  }
+  
+ 
