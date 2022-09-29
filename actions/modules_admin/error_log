@@ -1,0 +1,10 @@
+[13-Aug-2018 13:17:14 Europe/Copenhagen] Undefined variable: users_by_customer_id 
+           /home/plangyco/public_html/includes/functions.php, 2630 
+        #0 /home/plangyco/public_html/includes/functions.php(2630): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 2630, Array)
+        #1 /home/plangyco/public_html/actions/modules_admin/getcustomer.php(16): users_by_customer_id('[object')
+        #2 {main}
+[13-Aug-2018 13:17:25 Europe/Copenhagen] Undefined variable: users_by_customer_id 
+           /home/plangyco/public_html/includes/functions.php, 2630 
+        #0 /home/plangyco/public_html/includes/functions.php(2630): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 2630, Array)
+        #1 /home/plangyco/public_html/actions/modules_admin/getcustomer.php(16): users_by_customer_id('[object')
+        #2 {main}

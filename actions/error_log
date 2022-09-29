@@ -1,0 +1,1388 @@
+[10-Dec-2017 16:17:58 Europe/Copenhagen] Undefined index: email 
+           /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php, 26 
+        #0 /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php(26): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/beliboco/...', 26, Array)
+        #1 {main}
+[10-Dec-2017 16:18:45 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BXWZiKe5mZJeDZ5Dpa7uxzW. 
+           /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php(27): Stripe\Customer::create(Array)
+        #6 {main}
+[10-Dec-2017 16:23:15 Europe/Copenhagen] Received unknown parameters: plan, email 
+           /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+        #3 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+        #4 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php(21): Stripe\Charge::create(Array)
+        #6 {main}
+[10-Dec-2017 16:23:47 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BXWe6Ke5mZJeDZ5tZG0CQXF. 
+           /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php(27): Stripe\Customer::create(Array)
+        #6 {main}
+[10-Dec-2017 16:23:48 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BXWe6Ke5mZJeDZ5tZG0CQXF. 
+           /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+        #3 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+        #4 /home/beliboco/public_html/smillajewelry.com/includes/plugins/stripe-php-4.0.0/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/beliboco/public_html/smillajewelry.com/actions/stripepayandsubscribe.php(19): Stripe\Charge::create(Array)
+        #6 {main}
+[06-Feb-2018 12:51:18 Europe/Copenhagen] Undefined index: FirstName 
+           /home/plangyco/public_html/includes/functions.php, 190 
+        #0 /home/plangyco/public_html/includes/functions.php(190): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 190, Array)
+        #1 /home/plangyco/public_html/actions/login.php(6): loginaction('admin', '12345')
+        #2 {main}
+[16-Feb-2018 00:47:57 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /home/plangyco/public_html/actions/create_schedule.php on line 3
+[16-Feb-2018 00:56:27 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/plangyco/public_html/actions/create_schedule.php on line 14
+[16-Feb-2018 00:56:34 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/plangyco/public_html/actions/create_schedule.php on line 14
+[16-Feb-2018 00:56:59 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/plangyco/public_html/actions/create_schedule.php on line 14
+[16-Feb-2018 00:57:01 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/plangyco/public_html/actions/create_schedule.php on line 14
+[16-Feb-2018 00:59:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/plangyco/public_html/actions/create_schedule.php on line 12
+[16-Feb-2018 01:18:50 UTC] PHP Fatal error:  Call to undefined function d() in /home/plangyco/public_html/actions/create_schedule.php on line 21
+[16-Feb-2018 01:29:27 UTC] PHP Parse error:  syntax error, unexpected '$startminute' (T_VARIABLE) in /home/plangyco/public_html/actions/create_schedule.php on line 24
+[16-Feb-2018 12:09:08 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plangyco/public_html/actions/create_schedule.php on line 21
+[16-Feb-2018 12:09:43 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plangyco/public_html/actions/create_schedule.php on line 21
+[16-Feb-2018 12:10:03 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/plangyco/public_html/actions/create_schedule.php on line 19
+[16-Feb-2018 13:53:47 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/create_schedule.php on line 66
+[16-Feb-2018 13:53:52 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/create_schedule.php on line 66
+[16-Feb-2018 13:55:20 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 64
+[16-Feb-2018 13:56:19 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 65
+[16-Feb-2018 13:56:37 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 65
+[16-Feb-2018 14:01:15 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 64
+[16-Feb-2018 14:04:51 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 64
+[16-Feb-2018 14:05:35 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 64
+[16-Feb-2018 14:07:17 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/create_schedule.php on line 64
+[16-Feb-2018 15:14:42 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:18:23 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:21:57 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:22:19 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:23:13 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Start = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Start = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:23:24 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:24:15 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:24:24 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 15:24:42 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Date = ?  AND UserId = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `UserId`, `OriginalUserId`, `CreateDate`, `Date`, `Start`, `End`, `Year`, `Week`, `Day`)  VALUES (?, ?, ?, NOW(), ?, ?, ?, ?, ?, ?) WHERE  Date = ?  AND UserId = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/create_schedule.php(73): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Feb-2018 16:07:04 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/create_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[16-Feb-2018 16:35:25 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/create_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[16-Feb-2018 18:20:12 Europe/Copenhagen] Undefined variable: db 
+           /home/plangyco/public_html/includes/functions.php, 1028 
+        #0 /home/plangyco/public_html/includes/functions.php(1028): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 1028, Array)
+        #1 /home/plangyco/public_html/actions/update_schedule.php(8): update_schedule(9, 2018)
+        #2 {main}
+[16-Feb-2018 18:20:47 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(1032): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(8): update_schedule(9, 2018)
+        #5 {main}
+[16-Feb-2018 18:21:11 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(1031): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(8): update_schedule(9, 2018)
+        #5 {main}
+[16-Feb-2018 18:22:09 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(1031): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(8): update_schedule(9, 2018)
+        #5 {main}
+[16-Feb-2018 18:24:13 Europe/Copenhagen] PHP Fatal error:  Cannot use [] for reading in /home/plangyco/public_html/includes/functions.php on line 1057
+[16-Feb-2018 18:47:12 Europe/Copenhagen] Illegal string offset 'Start' 
+           /home/plangyco/public_html/actions/update_schedule.php, 11 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(11): php_error\ErrorHandler->php_error\{closure}(2, 'Illegal string ...', '/home/plangyco/...', 11, Array)
+        #1 {main}
+[16-Feb-2018 18:47:42 Europe/Copenhagen] Undefined variable: array 
+           /home/plangyco/public_html/actions/update_schedule.php, 11 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(11): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 11, Array)
+        #1 {main}
+[16-Feb-2018 18:52:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 18:54:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 18:55:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 18:57:00 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 18:57:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 18:59:06 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 19:59:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[16-Feb-2018 21:04:18 Europe/Copenhagen] Array to string conversion 
+           /home/plangyco/public_html/actions/create_schedule.php, 96 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(96): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/plangyco/...', 96, Array)
+        #1 {main}
+[16-Feb-2018 21:29:06 Europe/Copenhagen] Undefined variable: year 
+           /home/plangyco/public_html/actions/create_schedule.php, 103 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(103): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 103, Array)
+        #1 {main}
+[16-Feb-2018 20:30:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/update_schedule.php:2) in /home/plangyco/public_html/includes/config.php on line 2
+[17-Feb-2018 09:58:11 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/plangyco/public_html/actions/create_schedule.php on line 107
+[17-Feb-2018 10:58:22 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/create_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[20-Feb-2018 17:19:00 Europe/Copenhagen] Undefined index: DepartmentId 
+           /home/plangyco/public_html/actions/create_schedule.php, 7 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(7): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 7, Array)
+        #1 {main}
+[20-Feb-2018 17:23:35 Europe/Copenhagen] Undefined index: DepartmentId 
+           /home/plangyco/public_html/actions/create_schedule.php, 7 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(7): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 7, Array)
+        #1 {main}
+[20-Feb-2018 17:23:41 Europe/Copenhagen] Undefined index: DepartmentId 
+           /home/plangyco/public_html/actions/create_schedule.php, 7 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(7): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 7, Array)
+        #1 {main}
+[20-Feb-2018 17:23:55 Europe/Copenhagen] Undefined offset: 9 
+           /home/plangyco/public_html/actions/create_schedule.php, 49 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(49): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 49, Array)
+        #1 {main}
+[20-Feb-2018 17:27:08 Europe/Copenhagen] Undefined offset: 9 
+           /home/plangyco/public_html/actions/create_schedule.php, 49 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(49): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 49, Array)
+        #1 {main}
+[26-Feb-2018 23:01:01 Europe/Copenhagen] Undefined index: stripeToken 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 4 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 4, Array)
+        #1 {main}
+[26-Feb-2018 23:03:25 Europe/Copenhagen] Unknown column 'active_until' in 'field list' query: UPDATE pg_customers SET `VIP` = ?, `active_until` = ?, `StripeID` = ? WHERE  Id = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(768): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/actions/stripesubscribe.php(40): MysqliDb->update('customers', Array)
+        #3 {main}
+[26-Feb-2018 23:06:50 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1Bzu46GJU0XQN5CRRQaHJcK2. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(17): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 00:48:47 Europe/Copenhagen] Undefined index: Firstname 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 46 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(46): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 46, Array)
+        #1 {main}
+[27-Feb-2018 00:52:59 Europe/Copenhagen] Undefined variable: Currency 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 55 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(55): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 55, Array)
+        #1 {main}
+[27-Feb-2018 00:53:23 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1Bzvm8GJU0XQN5CRaHMcOdh3. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(17): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 00:53:33 Europe/Copenhagen] Undefined variable: Currency 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 55 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(55): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 55, Array)
+        #1 {main}
+[27-Feb-2018 00:54:13 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BzvmfGJU0XQN5CRmxpjIX1S. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(17): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 00:54:19 Europe/Copenhagen] Undefined variable: Total 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 56 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 56, Array)
+        #1 {main}
+[27-Feb-2018 00:54:55 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BzvnQGJU0XQN5CRr8yl1lsg. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(17): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 00:55:01 Europe/Copenhagen] Unknown column 'Country' in 'field list' query: INSERT  INTO pg_orders (`CustomerId`, `Firstname`, `Lastname`, `Email`, `PhoneNumber`, `Zipcode`, `City`, `Country`, `Company`, `VatNumber`, `Currency`, `TotalPrice`, `Status`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('orders', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/stripesubscribe.php(60): MysqliDb->insert('orders', Array)
+        #4 {main}
+[27-Feb-2018 01:48:09 Europe/Copenhagen] Undefined variable: customerid 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 14 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(14): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 14, Array)
+        #1 {main}
+[27-Feb-2018 01:48:27 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BzwdWGJU0XQN5CR9gjaHsZW. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(12): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 01:52:02 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1BzwdyGJU0XQN5CR6gyHLpNb. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(12): Stripe\Customer::create(Array)
+        #6 {main}
+[27-Feb-2018 01:08:01 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/plangyco/public_html/actions/stripesubscribe.php on line 15
+[27-Feb-2018 02:08:27 Europe/Copenhagen] Undefined index: id 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/StripeObject.php, 77 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/StripeObject.php(77): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 77, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(132): Stripe\StripeObject->__construct(Array, Object(Stripe\Util\RequestOptions))
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(37): Stripe\ApiResource::_retrieve(Array, NULL)
+        #3 /home/plangyco/public_html/actions/stripesubscribe.php(24): Stripe\Customer::retrieve(Array)
+        #4 {main}
+[27-Feb-2018 02:12:12 Europe/Copenhagen] Received unknown parameter: email 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(25): Stripe\Subscription::create(Array)
+        #6 {main}
+[27-Feb-2018 01:12:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 24
+[27-Feb-2018 01:12:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 24
+[27-Feb-2018 01:12:38 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 23
+[27-Feb-2018 01:12:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 23
+[27-Feb-2018 01:13:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 23
+[27-Feb-2018 01:13:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 23
+[27-Feb-2018 01:13:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/stripesubscribe.php on line 23
+[11-Mar-2018 10:53:22 Europe/Copenhagen] No such customer: sub_COkZ0juI6orarC 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[11-Mar-2018 10:59:15 Europe/Copenhagen] No such customer: sub_COkZ0juI6orarC 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[11-Mar-2018 10:59:26 Europe/Copenhagen] No such customer: sub_COkZ0juI6orarC 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[11-Mar-2018 11:00:47 Europe/Copenhagen] No such customer: sub_COkZ0juI6orarC 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[11-Mar-2018 11:01:28 Europe/Copenhagen] No such plan: department-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(16): Stripe\Customer::create(Array)
+        #6 {main}
+[11-Mar-2018 17:01:30 Europe/Copenhagen] Undefined index: ProductId 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 49 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(49): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 49, Array)
+        #1 {main}
+[11-Mar-2018 17:01:47 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  Id = ?' at line 1 query: INSERT  INTO pg_orders (`CustomerId`, `ProductType`, `ProductId`, `Firstname`, `Lastname`, `Email`, `PhoneNumber`, `Zipcode`, `City`, `Country`, `Company`, `VatNumber`, `Currency`, `TotalPrice`, `StripeId`, `StripeCustomerId`, `ActiveUntil`, `Status`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  Id = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('orders', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/stripesubscribe.php(76): MysqliDb->insert('orders', Array)
+        #4 {main}
+[11-Mar-2018 17:02:49 Europe/Copenhagen] Unknown column 'ActiveUntil' in 'field list' query: UPDATE pg_departments SET `ActiveUntil` = ?, `Status` = ? WHERE  Id = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(768): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/actions/stripesubscribe.php(50): MysqliDb->update('departments', Array)
+        #3 {main}
+[11-Mar-2018 17:04:13 Europe/Copenhagen] No such customer: sub_CTTab2pFaitbhm 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[11-Mar-2018 17:07:01 Europe/Copenhagen] Undefined index: StripeCustomerId 
+           /home/plangyco/public_html/includes/functions.php, 4408 
+        #0 /home/plangyco/public_html/includes/functions.php(4408): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 4408, Array)
+        #1 /home/plangyco/public_html/actions/login.php(6): loginactioncustomer('jwl@iomedia.dk', '12345')
+        #2 {main}
+[11-Mar-2018 17:13:19 Europe/Copenhagen] No such customer: sub_CTTab2pFaitbhm 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[08-Apr-2018 12:14:53 Europe/Copenhagen] No such customer: sub_CTTsCNuZ5zArF1 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[08-Apr-2018 12:15:21 Europe/Copenhagen] No such customer: sub_CTTsCNuZ5zArF1 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[08-Apr-2018 12:18:24 Europe/Copenhagen] No such customer: sub_CTTsCNuZ5zArF1 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[07-May-2018 13:18:08 Europe/Copenhagen] Undefined index: language 
+           /home/plangyco/public_html/actions/login.php, 6 
+        #0 /home/plangyco/public_html/actions/login.php(6): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 6, Array)
+        #1 {main}
+[07-May-2018 13:18:26 Europe/Copenhagen] Undefined index: language 
+           /home/plangyco/public_html/actions/login.php, 6 
+        #0 /home/plangyco/public_html/actions/login.php(6): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 6, Array)
+        #1 {main}
+[07-May-2018 13:23:03 Europe/Copenhagen] Undefined variable: lang 
+           /home/plangyco/public_html/actions/login.php, 6 
+        #0 /home/plangyco/public_html/actions/login.php(6): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 6, Array)
+        #1 {main}
+[17-May-2018 12:26:27 Europe/Copenhagen] No such customer: sub_CsUCBsylYNWQBK 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(27): Stripe\Subscription::create(Array)
+        #6 {main}
+[17-May-2018 13:00:42 Europe/Copenhagen] No such plan: plangy-user-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(68): Stripe\Subscription::create(Array)
+        #6 {main}
+[17-May-2018 13:01:13 Europe/Copenhagen] No such plan: plangy-user-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(68): Stripe\Subscription::create(Array)
+        #6 {main}
+[17-May-2018 13:02:43 Europe/Copenhagen] No such plan: plangy-user-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(68): Stripe\Subscription::create(Array)
+        #6 {main}
+[17-May-2018 11:15:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:15:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:16:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:17:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:17:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:17:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:17:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:17:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:18:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:18:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 142
+[17-May-2018 11:19:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:19:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 144
+[17-May-2018 11:21:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:08 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:22:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:23:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:25:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 146
+[17-May-2018 11:25:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 146
+[17-May-2018 11:25:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 146
+[17-May-2018 11:26:26 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 146
+[17-May-2018 11:28:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 146
+[17-May-2018 11:28:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:28:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:28:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 11:28:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 143
+[17-May-2018 13:34:29 Europe/Copenhagen] Undefined variable: customer 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 138 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(138): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 138, Array)
+        #1 {main}
+[19-May-2018 22:13:25 UTC] PHP Parse error:  syntax error, unexpected '"metadata"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/plangyco/public_html/actions/stripesubscribe.php on line 30
+[20-May-2018 00:15:15 Europe/Copenhagen] Invalid hash 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(31): Stripe\Subscription::create(Array)
+        #6 {main}
+[20-May-2018 00:16:03 Europe/Copenhagen] Invalid hash 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(31): Stripe\Subscription::create(Array)
+        #6 {main}
+[20-May-2018 00:16:43 Europe/Copenhagen] You cannot use a Stripe token more than once: tok_1CTdLICGDU4sk1mjDklhaqXu. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(18): Stripe\Customer::create(Array)
+        #6 {main}
+[19-May-2018 22:19:48 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/stripesubscribe.php on line 30
+[20-May-2018 00:20:19 Europe/Copenhagen] Invalid hash 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/subscriptio...', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/subscriptio...', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Subscription.php(53): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(61): Stripe\Subscription::create(Array)
+        #6 {main}
+[20-May-2018 00:37:13 Europe/Copenhagen] Undefined variable: customer 
+           /home/plangyco/public_html/actions/stripesubscribe.php, 106 
+        #0 /home/plangyco/public_html/actions/stripesubscribe.php(106): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 106, Array)
+        #1 {main}
+[27-May-2018 17:20:20 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/create_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[27-May-2018 17:20:25 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/create_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[27-May-2018 17:21:00 Europe/Copenhagen] Undefined offset: 2 
+           /home/plangyco/public_html/actions/create_schedule.php, 36 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[27-May-2018 17:21:12 Europe/Copenhagen] Undefined offset: 2 
+           /home/plangyco/public_html/actions/create_schedule.php, 36 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[27-May-2018 17:22:36 Europe/Copenhagen] Undefined offset: 2 
+           /home/plangyco/public_html/actions/create_schedule.php, 36 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[27-May-2018 17:23:26 Europe/Copenhagen] Undefined offset: 2 
+           /home/plangyco/public_html/actions/create_schedule.php, 36 
+        #0 /home/plangyco/public_html/actions/create_schedule.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[13-Jun-2018 11:28:44 Europe/Copenhagen] Missing argument 2 for departments_by_leader(), called in /home/plangyco/public_html/includes/functions.php on line 5659 and defined 
+           /home/plangyco/public_html/includes/functions.php, 2335 
+        #0 /home/plangyco/public_html/includes/functions.php(2335): php_error\ErrorHandler->php_error\{closure}(2, 'Missing argumen...', '/home/plangyco/...', 2335, Array)
+        #1 /home/plangyco/public_html/includes/functions.php(5659): departments_by_leader(2)
+        #2 /home/plangyco/public_html/actions/login.php(6): loginactioncustomer('jwl@iomedia.dk', '12345')
+        #3 {main}
+[13-Jun-2018 11:29:09 Europe/Copenhagen] Undefined variable: usertype 
+           /home/plangyco/public_html/includes/functions.php, 2345 
+        #0 /home/plangyco/public_html/includes/functions.php(2345): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 2345, Array)
+        #1 /home/plangyco/public_html/includes/functions.php(5659): departments_by_leader(1, 1, 2)
+        #2 /home/plangyco/public_html/actions/login.php(6): loginactioncustomer('jwl@iomedia.dk', '12345')
+        #3 {main}
+[21-Jun-2018 07:42:14 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 23
+[21-Jun-2018 07:42:46 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 24
+[21-Jun-2018 07:43:44 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 23
+[21-Jun-2018 07:43:48 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 24
+[21-Jun-2018 07:43:48 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 24
+[21-Jun-2018 07:43:54 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 19
+[21-Jun-2018 07:44:27 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 26
+[21-Jun-2018 07:44:45 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 26
+[21-Jun-2018 07:44:45 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 26
+[21-Jun-2018 07:45:14 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 21
+[21-Jun-2018 07:45:24 UTC] PHP Parse error:  syntax error, unexpected '$Week' (T_VARIABLE) in /home/plangyco/public_html/actions/create_shift.php on line 22
+[02-Jul-2018 13:53:45 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/update_schedule.php on line 102
+[02-Jul-2018 13:55:52 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/update_schedule.php on line 101
+[02-Jul-2018 13:56:00 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/update_schedule.php on line 101
+[02-Jul-2018 13:56:05 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/update_schedule.php on line 101
+[02-Jul-2018 13:56:33 UTC] PHP Fatal error:  Call to a member function now() on null in /home/plangyco/public_html/actions/update_schedule.php on line 101
+[02-Jul-2018 13:56:59 UTC] PHP Fatal error:  Call to undefined function d() in /home/plangyco/public_html/actions/update_schedule.php on line 4
+[02-Jul-2018 15:57:14 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 17 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 17, Array)
+        #1 {main}
+[05-Jul-2018 11:27:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/plangyco/public_html/actions/change-department.php on line 12
+[05-Jul-2018 11:28:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/plangyco/public_html/actions/change-department.php on line 12
+[10-Jul-2018 16:41:05 Europe/Copenhagen] Undefined index: Date 
+           /home/plangyco/public_html/actions/create_shift_v2.php, 13 
+        #0 /home/plangyco/public_html/actions/create_shift_v2.php(13): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 13, Array)
+        #1 {main}
+[10-Jul-2018 16:44:04 Europe/Copenhagen] Undefined index: Date 
+           /home/plangyco/public_html/actions/create_shift_v2.php, 13 
+        #0 /home/plangyco/public_html/actions/create_shift_v2.php(13): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 13, Array)
+        #1 {main}
+[30-Jul-2018 15:06:12 Europe/Copenhagen] Undefined index: TimeHourStart 
+           /home/plangyco/public_html/actions/update_shift.php, 10 
+        #0 /home/plangyco/public_html/actions/update_shift.php(10): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 10, Array)
+        #1 {main}
+[30-Jul-2018 15:06:32 Europe/Copenhagen] Undefined index: TimeHourStart 
+           /home/plangyco/public_html/actions/update_shift.php, 10 
+        #0 /home/plangyco/public_html/actions/update_shift.php(10): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 10, Array)
+        #1 {main}
+[30-Jul-2018 15:07:17 Europe/Copenhagen] Undefined index: TimeHourStart 
+           /home/plangyco/public_html/actions/update_shift.php, 10 
+        #0 /home/plangyco/public_html/actions/update_shift.php(10): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 10, Array)
+        #1 {main}
+[30-Jul-2018 15:08:29 Europe/Copenhagen] Undefined index: TimeHourStart 
+           /home/plangyco/public_html/actions/update_shift.php, 10 
+        #0 /home/plangyco/public_html/actions/update_shift.php(10): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 10, Array)
+        #1 {main}
+[30-Jul-2018 15:11:17 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 24 
+        #0 /home/plangyco/public_html/actions/update_shift.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[30-Jul-2018 15:12:51 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 24 
+        #0 /home/plangyco/public_html/actions/update_shift.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[30-Jul-2018 15:14:19 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 24 
+        #0 /home/plangyco/public_html/actions/update_shift.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[30-Jul-2018 15:14:23 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 24 
+        #0 /home/plangyco/public_html/actions/update_shift.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[30-Jul-2018 18:10:04 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 24 
+        #0 /home/plangyco/public_html/actions/update_shift.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[30-Jul-2018 18:16:36 Europe/Copenhagen] Undefined index: CurrentUser 
+           /home/plangyco/public_html/actions/update_shift.php, 43 
+        #0 /home/plangyco/public_html/actions/update_shift.php(43): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 43, Array)
+        #1 {main}
+[30-Jul-2018 18:17:17 Europe/Copenhagen] Undefined index: ShiftId 
+           /home/plangyco/public_html/actions/update_shift.php, 105 
+        #0 /home/plangyco/public_html/actions/update_shift.php(105): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 105, Array)
+        #1 {main}
+[30-Jul-2018 18:18:23 Europe/Copenhagen] Undefined index: CustomerId 
+           /home/plangyco/public_html/actions/create_shift.php, 21 
+        #0 /home/plangyco/public_html/actions/create_shift.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[07-Aug-2018 12:00:45 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:06:43 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:07:52 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:10:53 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:11:02 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:16:10 Europe/Copenhagen] No such plan: plangy-dk; a similar object exists in test mode, but a live mode key was used to make this request. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:17:35 Europe/Copenhagen] No such plan: plangy-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:18:27 Europe/Copenhagen] No such plan: Plangy DK; one exists with a name of Plangy DK, but its ID is plan_DNCSqVam4JFfMM. 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:19:01 Europe/Copenhagen] No such plan: plangy-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:21:59 Europe/Copenhagen] No such plan: prod_DNCRHTtW2FeJVt 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:22:10 Europe/Copenhagen] No such plan: plangy-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:22:55 Europe/Copenhagen] No such plan: plangy-dk 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:26:13 Europe/Copenhagen] No such plan: plangy-store 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[07-Aug-2018 12:28:15 Europe/Copenhagen] No such plan: plangy-store 
+           /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php, 108 
+        #0 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(262): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+        #1 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+        #2 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/ApiResource.php(160): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+        #4 /home/plangyco/public_html/includes/plugins/stripe-php-4.0.0/lib/Customer.php(59): Stripe\ApiResource::_create(Array, NULL)
+        #5 /home/plangyco/public_html/actions/stripesubscribe.php(26): Stripe\Customer::create(Array)
+        #6 {main}
+[19-Aug-2018 01:30:55 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:31:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:31:45 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:31:49 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:31:58 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:32:34 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:32:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:32:49 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:33:17 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:33:18 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/plangyco/public_html/actions/login.php on line 4
+[19-Aug-2018 01:36:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/plangyco/public_html/actions/login.php:1) in /home/plangyco/public_html/includes/config.php on line 7
+[21-Aug-2018 22:36:50 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:37:08 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:37:09 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:37:26 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:37:27 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:37:29 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:38:01 UTC] PHP Parse error:  syntax error, unexpected '$userdata' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 11
+[21-Aug-2018 22:39:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/plangyco/public_html/actions/initials.php on line 23
+[21-Aug-2018 22:39:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/plangyco/public_html/actions/initials.php on line 23
+[21-Aug-2018 23:09:20 UTC] PHP Parse error:  syntax error, unexpected '$initialrun' (T_VARIABLE) in /home/plangyco/public_html/actions/initials.php on line 36
+[21-Aug-2018 23:15:52 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/plangyco/public_html/actions/initials.php on line 53
+[22-Aug-2018 00:11:19 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/initials.php on line 42
+[22-Aug-2018 00:11:20 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/plangyco/public_html/actions/initials.php on line 42
+[22-Aug-2018 00:19:43 UTC] PHP Warning:  Unterminated comment starting line 87 in /home/plangyco/public_html/actions/initials.php on line 87
+[22-Aug-2018 00:19:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/initials.php on line 97
+[22-Aug-2018 00:19:44 UTC] PHP Warning:  Unterminated comment starting line 87 in /home/plangyco/public_html/actions/initials.php on line 87
+[22-Aug-2018 00:19:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/initials.php on line 97
+[22-Aug-2018 09:05:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/plangyco/public_html/actions/initials.php on line 32
+[22-Aug-2018 09:05:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/plangyco/public_html/actions/initials.php on line 32
+[22-Aug-2018 09:05:47 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING) in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 09:05:47 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING) in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:10:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:10:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 10:11:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/plangyco/public_html/actions/initials.php on line 34
+[22-Aug-2018 11:58:28 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ',' or ';' in /home/plangyco/public_html/actions/initials.php on line 13
+[22-Aug-2018 11:58:29 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ',' or ';' in /home/plangyco/public_html/actions/initials.php on line 13
+[24-Aug-2018 12:52:27 UTC] PHP Parse error:  syntax error, unexpected '"SetCheckinBefore"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/plangyco/public_html/actions/update_department.php on line 17
+[24-Aug-2018 12:52:36 UTC] PHP Parse error:  syntax error, unexpected '"SetCheckinBefore"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/plangyco/public_html/actions/update_department.php on line 17
+[29-Aug-2018 12:24:12 Europe/Copenhagen] Undefined index: Trial 
+           /home/plangyco/public_html/actions/upgrade.php, 8 
+        #0 /home/plangyco/public_html/actions/upgrade.php(8): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 8, Array)
+        #1 {main}
+[29-Aug-2018 22:35:09 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 22 
+        #0 /home/plangyco/public_html/actions/update_department.php(22): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 22, Array)
+        #1 {main}
+[29-Aug-2018 22:35:17 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 22 
+        #0 /home/plangyco/public_html/actions/update_department.php(22): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 22, Array)
+        #1 {main}
+[29-Aug-2018 22:36:06 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 22 
+        #0 /home/plangyco/public_html/actions/update_department.php(22): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 22, Array)
+        #1 {main}
+[29-Aug-2018 22:36:51 Europe/Copenhagen] Undefined index: MessagingSetting 
+           /home/plangyco/public_html/actions/update_department.php, 23 
+        #0 /home/plangyco/public_html/actions/update_department.php(23): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 23, Array)
+        #1 {main}
+[29-Aug-2018 22:37:27 Europe/Copenhagen] Undefined index: ApprovalSetting 
+           /home/plangyco/public_html/actions/update_department.php, 21 
+        #0 /home/plangyco/public_html/actions/update_department.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[29-Aug-2018 22:38:21 Europe/Copenhagen] Undefined index: QuickMessagesSetting 
+           /home/plangyco/public_html/actions/update_department.php, 26 
+        #0 /home/plangyco/public_html/actions/update_department.php(26): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 26, Array)
+        #1 {main}
+[29-Aug-2018 22:44:48 Europe/Copenhagen] Undefined index: PunchClockSetting 
+           /home/plangyco/public_html/actions/update_department.php, 24 
+        #0 /home/plangyco/public_html/actions/update_department.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[29-Aug-2018 22:45:01 Europe/Copenhagen] Undefined index: MessagingSetting 
+           /home/plangyco/public_html/actions/update_department.php, 23 
+        #0 /home/plangyco/public_html/actions/update_department.php(23): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 23, Array)
+        #1 {main}
+[29-Aug-2018 22:45:18 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 22 
+        #0 /home/plangyco/public_html/actions/update_department.php(22): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 22, Array)
+        #1 {main}
+[29-Aug-2018 22:45:37 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 22 
+        #0 /home/plangyco/public_html/actions/update_department.php(22): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 22, Array)
+        #1 {main}
+[29-Aug-2018 22:45:54 Europe/Copenhagen] Undefined index: MessagingSetting 
+           /home/plangyco/public_html/actions/update_department.php, 23 
+        #0 /home/plangyco/public_html/actions/update_department.php(23): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 23, Array)
+        #1 {main}
+[29-Aug-2018 22:46:43 Europe/Copenhagen] Undefined index: PunchClockSetting 
+           /home/plangyco/public_html/actions/update_department.php, 24 
+        #0 /home/plangyco/public_html/actions/update_department.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 24, Array)
+        #1 {main}
+[29-Aug-2018 22:48:05 Europe/Copenhagen] Undefined index: ApprovalSetting 
+           /home/plangyco/public_html/actions/update_department.php, 21 
+        #0 /home/plangyco/public_html/actions/update_department.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[29-Aug-2018 22:48:17 Europe/Copenhagen] Undefined index: ApprovalSetting 
+           /home/plangyco/public_html/actions/update_department.php, 21 
+        #0 /home/plangyco/public_html/actions/update_department.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[29-Aug-2018 22:48:21 Europe/Copenhagen] Undefined index: ApprovalSetting 
+           /home/plangyco/public_html/actions/update_department.php, 21 
+        #0 /home/plangyco/public_html/actions/update_department.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[29-Aug-2018 22:49:11 Europe/Copenhagen] Undefined index: ApprovalSetting 
+           /home/plangyco/public_html/actions/update_department.php, 21 
+        #0 /home/plangyco/public_html/actions/update_department.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 21, Array)
+        #1 {main}
+[29-Aug-2018 22:50:11 Europe/Copenhagen] Undefined index: StatisticSetting 
+           /home/plangyco/public_html/actions/update_department.php, 28 
+        #0 /home/plangyco/public_html/actions/update_department.php(28): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 28, Array)
+        #1 {main}
+[09-Sep-2018 14:28:37 Europe/Copenhagen] Undefined index: OriginalUserId 
+           /home/plangyco/public_html/actions/update_shift.php, 41 
+        #0 /home/plangyco/public_html/actions/update_shift.php(41): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 41, Array)
+        #1 {main}
+[09-Sep-2018 14:29:11 Europe/Copenhagen] Undefined index: OriginalUserId 
+           /home/plangyco/public_html/actions/update_shift.php, 41 
+        #0 /home/plangyco/public_html/actions/update_shift.php(41): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 41, Array)
+        #1 {main}
+[09-Sep-2018 21:22:08 Europe/Copenhagen] Undefined index: OriginalUserId 
+           /home/plangyco/public_html/actions/update_shift.php, 56 
+        #0 /home/plangyco/public_html/actions/update_shift.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 56, Array)
+        #1 {main}
+[09-Sep-2018 21:36:26 Europe/Copenhagen] Undefined index: OriginalUserId 
+           /home/plangyco/public_html/actions/update_shift.php, 56 
+        #0 /home/plangyco/public_html/actions/update_shift.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 56, Array)
+        #1 {main}
+[09-Sep-2018 21:52:10 Europe/Copenhagen] Undefined index: OriginalUserId 
+           /home/plangyco/public_html/actions/update_shift.php, 56 
+        #0 /home/plangyco/public_html/actions/update_shift.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 56, Array)
+        #1 {main}
+[14-Sep-2018 16:12:45 Europe/Copenhagen] Undefined variable: loop 
+           /home/plangyco/public_html/actions/update_schedule.php, 100 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(100): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 100, Array)
+        #1 {main}
+[14-Sep-2018 16:16:45 Europe/Copenhagen] Undefined variable: key 
+           /home/plangyco/public_html/actions/update_schedule.php, 98 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(98): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 98, Array)
+        #1 {main}
+[14-Sep-2018 16:22:55 Europe/Copenhagen] array_chunk() expects at most 3 parameters, 4 given 
+           /home/plangyco/public_html/actions/update_schedule.php, 101 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_chunk() e...', '/home/plangyco/...', 101, Array)
+        #1 /home/plangyco/public_html/actions/update_schedule.php(101): array_chunk(Array, 0, 5, true)
+        #2 {main}
+[14-Sep-2018 16:27:15 Europe/Copenhagen] Undefined offset: 0 
+           /home/plangyco/public_html/actions/update_schedule.php, 105 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(105): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 105, Array)
+        #1 {main}
+[14-Sep-2018 16:27:21 Europe/Copenhagen] Undefined offset: 1 
+           /home/plangyco/public_html/actions/update_schedule.php, 105 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(105): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 105, Array)
+        #1 {main}
+[14-Sep-2018 16:36:32 Europe/Copenhagen] Array to string conversion 
+           /home/plangyco/public_html/actions/update_schedule.php, 111 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(111): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/plangyco/...', 111, Array)
+        #1 {main}
+[15-Sep-2018 14:12:34 Europe/Copenhagen] Undefined offset: 7 
+           /home/plangyco/public_html/actions/update_schedule.php, 130 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(130): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/plangyco/...', 130, Array)
+        #1 {main}
+[16-Sep-2018 12:25:43 Europe/Copenhagen] Array to string conversion 
+           /home/plangyco/public_html/actions/update_schedule.php, 133 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(133): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/plangyco/...', 133, Array)
+        #1 {main}
+[16-Sep-2018 12:31:30 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(143): user_data_by_id('1')
+        #5 {main}
+[16-Sep-2018 12:32:46 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(143): user_data_by_id('1')
+        #5 {main}
+[16-Sep-2018 12:33:18 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(143): user_data_by_id('1')
+        #5 {main}
+[16-Sep-2018 12:33:34 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(143): user_data_by_id(1)
+        #5 {main}
+[16-Sep-2018 12:33:58 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(143): user_data_by_id(1)
+        #5 {main}
+[16-Sep-2018 12:34:27 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  * FROM pg_users WHERE  UserId AND Date = ?  AND Id = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '*')
+        #3 /home/plangyco/public_html/includes/functions.php(3490): MysqliDb->getOne('users')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(124): user_data_by_id('1')
+        #5 {main}
+[16-Sep-2018 10:42:25 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 174
+[16-Sep-2018 12:42:40 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:42:52 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:43:07 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:43:19 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 10:43:37 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:43:38 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:43:48 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 164
+[16-Sep-2018 10:43:49 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 164
+[16-Sep-2018 10:43:49 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 164
+[16-Sep-2018 10:44:04 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:44:04 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 12:44:16 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 10:44:37 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:44:51 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:44:52 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 12:45:28 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 10:45:55 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 174
+[16-Sep-2018 10:45:55 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 174
+[16-Sep-2018 10:46:12 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 175
+[16-Sep-2018 10:46:13 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 175
+[16-Sep-2018 10:46:19 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:46:42 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:46:54 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 173
+[16-Sep-2018 10:47:16 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 161
+[16-Sep-2018 10:47:36 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in /home/plangyco/public_html/actions/update_schedule.php on line 162
+[16-Sep-2018 12:47:46 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:48:00 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:49:17 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 12:49:48 Europe/Copenhagen] Unknown column 'UserId' in 'where clause' query: SELECT  1 FROM pg_users WHERE  UserId AND Date = ?  LIMIT 1 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('users', 1, '1')
+        #3 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(747): MysqliDb->getOne('users', '1')
+        #4 /home/plangyco/public_html/actions/update_schedule.php(144): MysqliDb->has('users')
+        #5 {main}
+[16-Sep-2018 12:50:37 Europe/Copenhagen] mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1431 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'mysqli_stmt::bi...', '/home/plangyco/...', 1431, Array)
+        #1 [internal function]: mysqli_stmt->bind_param('ss', '1', '2018-11-26')
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1431): call_user_func_array(Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #4 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('schedule', 1, '1')
+        #5 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(747): MysqliDb->getOne('schedule', '1')
+        #6 /home/plangyco/public_html/actions/update_schedule.php(144): MysqliDb->has('schedule')
+        #7 {main}
+[16-Sep-2018 12:51:25 Europe/Copenhagen] mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1431 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'mysqli_stmt::bi...', '/home/plangyco/...', 1431, Array)
+        #1 [internal function]: mysqli_stmt->bind_param('ss', '1', '2018-11-26')
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1431): call_user_func_array(Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #4 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('schedule', 1, '1')
+        #5 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(747): MysqliDb->getOne('schedule', '1')
+        #6 /home/plangyco/public_html/actions/update_schedule.php(144): MysqliDb->has('schedule')
+        #7 {main}
+[16-Sep-2018 12:51:32 Europe/Copenhagen] mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1431 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'mysqli_stmt::bi...', '/home/plangyco/...', 1431, Array)
+        #1 [internal function]: mysqli_stmt->bind_param('ss', '1', '2018-11-26')
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1431): call_user_func_array(Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #4 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('schedule', 1, '1')
+        #5 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(747): MysqliDb->getOne('schedule', '1')
+        #6 /home/plangyco/public_html/actions/update_schedule.php(144): MysqliDb->has('schedule')
+        #7 {main}
+[16-Sep-2018 12:51:38 Europe/Copenhagen] mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement 
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1431 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'mysqli_stmt::bi...', '/home/plangyco/...', 1431, Array)
+        #1 [internal function]: mysqli_stmt->bind_param('ss', '1', '2018-11-26')
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1431): call_user_func_array(Array, Array)
+        #3 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #4 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('schedule', 1, '1')
+        #5 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(747): MysqliDb->getOne('schedule', '1')
+        #6 /home/plangyco/public_html/actions/update_schedule.php(144): MysqliDb->has('schedule')
+        #7 {main}
+[16-Sep-2018 12:53:18 Europe/Copenhagen] PHP Fatal error:  Call to a member function format() on string in /home/plangyco/public_html/actions/update_schedule.php on line 130
+[16-Sep-2018 10:57:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/update_schedule.php on line 274
+[16-Sep-2018 10:57:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/update_schedule.php on line 274
+[16-Sep-2018 10:57:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/update_schedule.php on line 275
+[16-Sep-2018 10:57:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/update_schedule.php on line 275
+[16-Sep-2018 10:58:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/plangyco/public_html/actions/update_schedule.php on line 275
+[16-Sep-2018 12:58:23 Europe/Copenhagen] Undefined index: Year 
+           /home/plangyco/public_html/actions/update_schedule.php, 18 
+        #0 /home/plangyco/public_html/actions/update_schedule.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 18, Array)
+        #1 {main}
+[16-Sep-2018 13:28:12 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(125): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:29:11 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(125): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:29:30 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(125): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:30:03 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(124): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:33:09 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(123): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:37:49 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(130): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[16-Sep-2018 13:38:51 Europe/Copenhagen] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  UserId = ?  AND Date = ?' at line 1 query: INSERT  INTO pg_schedule (`CustomerId`, `DepartmentId`, `UserId`, `Date`, `Year`, `Month`, `Week`, `Day`, `AbsenceId`, `Start`, `End`, `OriginalUserId`, `CreateDate`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW()) WHERE  UserId = ?  AND Date = ?  
+           /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/plangyco/public_html/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('schedule', Array, 'INSERT')
+        #3 /home/plangyco/public_html/actions/update_schedule.php(130): MysqliDb->insert('schedule', Array)
+        #4 {main}
+[18-Sep-2018 00:41:56 Europe/Copenhagen] Undefined variable: TitleExclusive 
+           /home/plangyco/public_html/actions/update_shift.php, 99 
+        #0 /home/plangyco/public_html/actions/update_shift.php(99): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 99, Array)
+        #1 {main}
+[18-Sep-2018 00:42:39 Europe/Copenhagen] Undefined variable: TitleExclusive 
+           /home/plangyco/public_html/actions/update_shift.php, 99 
+        #0 /home/plangyco/public_html/actions/update_shift.php(99): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 99, Array)
+        #1 {main}
+[22-Sep-2018 15:15:26 Europe/Copenhagen] Undefined index: DashShiftlistSetting 
+           /home/plangyco/public_html/actions/update_employee.php, 32 
+        #0 /home/plangyco/public_html/actions/update_employee.php(32): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 32, Array)
+        #1 {main}
+[22-Sep-2018 15:15:40 Europe/Copenhagen] Undefined index: DashShiftlistSetting 
+           /home/plangyco/public_html/actions/update_employee.php, 32 
+        #0 /home/plangyco/public_html/actions/update_employee.php(32): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 32, Array)
+        #1 {main}
+[22-Sep-2018 15:20:20 Europe/Copenhagen] Undefined variable: DashShiftlistSetting 
+           /home/plangyco/public_html/actions/update_employee.php, 33 
+        #0 /home/plangyco/public_html/actions/update_employee.php(33): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 33, Array)
+        #1 {main}
+[22-Sep-2018 15:20:46 Europe/Copenhagen] Undefined index: DashShiftlistSetting 
+           /home/plangyco/public_html/actions/update_employee.php, 33 
+        #0 /home/plangyco/public_html/actions/update_employee.php(33): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 33, Array)
+        #1 {main}
+[22-Sep-2018 15:21:02 Europe/Copenhagen] Undefined index: DashShiftlistSetting 
+           /home/plangyco/public_html/actions/update_employee.php, 33 
+        #0 /home/plangyco/public_html/actions/update_employee.php(33): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 33, Array)
+        #1 {main}
+[06-Oct-2018 14:54:31 Europe/Copenhagen] Undefined index: SalaryBase 
+           /home/plangyco/public_html/actions/update_employee.php, 36 
+        #0 /home/plangyco/public_html/actions/update_employee.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[06-Oct-2018 14:54:50 Europe/Copenhagen] Undefined index: SalaryBase 
+           /home/plangyco/public_html/actions/update_employee.php, 36 
+        #0 /home/plangyco/public_html/actions/update_employee.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[06-Oct-2018 14:55:31 Europe/Copenhagen] Undefined index: SalaryId 
+           /home/plangyco/public_html/actions/update_employee.php, 36 
+        #0 /home/plangyco/public_html/actions/update_employee.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 36, Array)
+        #1 {main}
+[06-Oct-2018 15:02:31 Europe/Copenhagen] Undefined index: SalaryBase 
+           /home/plangyco/public_html/actions/create_employee.php, 29 
+        #0 /home/plangyco/public_html/actions/create_employee.php(29): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 29, Array)
+        #1 {main}
+[07-Dec-2018 11:33:09 Europe/Copenhagen] Undefined index: Initials 
+           /home/plangyco/public_html/actions/update_employee.php, 28 
+        #0 /home/plangyco/public_html/actions/update_employee.php(28): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 28, Array)
+        #1 {main}
+[07-Dec-2018 11:33:15 Europe/Copenhagen] Undefined index: Initials 
+           /home/plangyco/public_html/actions/update_employee.php, 28 
+        #0 /home/plangyco/public_html/actions/update_employee.php(28): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 28, Array)
+        #1 {main}
+[07-Dec-2018 11:35:35 Europe/Copenhagen] Undefined index: Initials 
+           /home/plangyco/public_html/actions/update_employee.php, 28 
+        #0 /home/plangyco/public_html/actions/update_employee.php(28): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 28, Array)
+        #1 {main}
+[07-Dec-2018 11:36:39 Europe/Copenhagen] Undefined index: Initials 
+           /home/plangyco/public_html/actions/update_employee.php, 28 
+        #0 /home/plangyco/public_html/actions/update_employee.php(28): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 28, Array)
+        #1 {main}
+[11-Dec-2018 18:11:06 Europe/Copenhagen] Undefined variable: ShiftStatus 
+           /home/plangyco/public_html/actions/update_shift.php, 128 
+        #0 /home/plangyco/public_html/actions/update_shift.php(128): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/plangyco/...', 128, Array)
+        #1 {main}
+[16-Jan-2019 18:23:37 Europe/Copenhagen] Undefined index: AvatarBackgroundColor 
+           /home/plangyco/public_html/actions/update_employee.php, 29 
+        #0 /home/plangyco/public_html/actions/update_employee.php(29): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 29, Array)
+        #1 {main}
+[16-Jan-2019 18:31:51 Europe/Copenhagen] Undefined index: AvatarBackgroundColor 
+           /home/plangyco/public_html/actions/update_employee.php, 29 
+        #0 /home/plangyco/public_html/actions/update_employee.php(29): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 29, Array)
+        #1 {main}
+[08-Sep-2019 16:20:55 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 16:20:56 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 16:20:57 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 16:20:57 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 16:20:57 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 16:21:02 UTC] PHP Fatal error:  Call to undefined function d() in /home/iomediad/public_html/plast1/actions/login.php on line 3
+[08-Sep-2019 18:30:22 Europe/Copenhagen] Table 'iomediad_plast1.pg_loginhistory' doesn't exist query: INSERT  INTO pg_loginhistory (`Username`, `Password`, `IP`, `Status`)  VALUES (?, ?, ?, ?) 
+           /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('loginhistory', Array, 'INSERT')
+        #3 /home/iomediad/public_html/plast1/includes/functions.php(540): MysqliDb->insert('loginhistory', Array)
+        #4 /home/iomediad/public_html/plast1/includes/functions.php(8181): loginattempt('jwl@iomedia.dk', '12345', '0')
+        #5 /home/iomediad/public_html/plast1/actions/login.php(23): loginactioncustomer('jwl@iomedia.dk', '12345', 'dashboard', 's:0:"";')
+        #6 {main}
+[08-Sep-2019 18:30:24 Europe/Copenhagen] Table 'iomediad_plast1.pg_loginhistory' doesn't exist query: INSERT  INTO pg_loginhistory (`Username`, `Password`, `IP`, `Status`)  VALUES (?, ?, ?, ?) 
+           /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('loginhistory', Array, 'INSERT')
+        #3 /home/iomediad/public_html/plast1/includes/functions.php(540): MysqliDb->insert('loginhistory', Array)
+        #4 /home/iomediad/public_html/plast1/includes/functions.php(8181): loginattempt('jwl@iomedia.dk', '12345', '0')
+        #5 /home/iomediad/public_html/plast1/actions/login.php(23): loginactioncustomer('jwl@iomedia.dk', '12345', 'dashboard', 's:7:"s:0:"";";')
+        #6 {main}
+[14-Oct-2019 09:00:33 Europe/Copenhagen] Undefined index: DescriptionEN 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 74 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(74): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 74, Array)
+        #1 {main}
+[30-Oct-2019 01:45:44 Europe/Copenhagen] Undefined index: cart 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 4 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Oct-2019 01:45:49 Europe/Copenhagen] Undefined index: cart 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 4 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Oct-2019 01:49:32 Europe/Copenhagen] Undefined index: cart 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 4 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Oct-2019 01:50:14 Europe/Copenhagen] Undefined index: cart 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 4 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Oct-2019 02:01:18 Europe/Copenhagen] PHP Fatal error:  Unsupported operand types in /home/iomediad/public_html/plast1/actions/getCart.php on line 68
+[30-Oct-2019 02:02:39 Europe/Copenhagen] PHP Fatal error:  Unsupported operand types in /home/iomediad/public_html/plast1/actions/getCart.php on line 68
+[30-Oct-2019 02:05:02 Europe/Copenhagen] explode() expects parameter 2 to be string, array given 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 55 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'explode() expec...', '/home/iomediad/...', 55, Array)
+        #1 /home/iomediad/public_html/plast1/actions/getCart.php(55): explode('::|', Array)
+        #2 {main}
+[30-Oct-2019 02:05:26 Europe/Copenhagen] Array to string conversion 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 82 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(82): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/iomediad/...', 82, Array)
+        #1 {main}
+[30-Oct-2019 02:05:36 Europe/Copenhagen] Array to string conversion 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 82 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(82): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/iomediad/...', 82, Array)
+        #1 {main}
+[30-Oct-2019 02:06:14 Europe/Copenhagen] Array to string conversion 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 82 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(82): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/iomediad/...', 82, Array)
+        #1 {main}
+[30-Oct-2019 02:22:00 Europe/Copenhagen] Undefined variable: priceItem 
+           /home/iomediad/public_html/plast1/actions/getCart.php, 80 
+        #0 /home/iomediad/public_html/plast1/actions/getCart.php(80): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 80, Array)
+        #1 {main}
+[16-Dec-2019 04:43:32 Europe/Copenhagen] Undefined variable: cookie 
+           /home/iomediad/public_html/fitforkids/actions/login.php, 24 
+        #0 /home/iomediad/public_html/fitforkids/actions/login.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 24, Array)
+        #1 {main}
+[16-Dec-2019 04:43:41 Europe/Copenhagen] Undefined variable: cookie 
+           /home/iomediad/public_html/fitforkids/actions/login.php, 24 
+        #0 /home/iomediad/public_html/fitforkids/actions/login.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 24, Array)
+        #1 {main}
+[29-Dec-2019 14:52:01 Europe/Copenhagen] Undefined index: Country 
+           /home/iomediad/public_html/fitforkids/actions/update_employee.php, 15 
+        #0 /home/iomediad/public_html/fitforkids/actions/update_employee.php(15): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 15, Array)
+        #1 {main}
+[06-Mar-2020 15:34:12 Europe/Copenhagen] Undefined index: Municipality 
+           /home/iomediad/public_html/fitforkids/actions/update_employee.php, 26 
+        #0 /home/iomediad/public_html/fitforkids/actions/update_employee.php(26): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 26, Array)
+        #1 {main}
+[06-Mar-2020 15:34:53 Europe/Copenhagen] Undefined index: Retion 
+           /home/iomediad/public_html/fitforkids/actions/update_employee.php, 27 
+        #0 /home/iomediad/public_html/fitforkids/actions/update_employee.php(27): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 27, Array)
+        #1 {main}
+[08-Mar-2020 12:12:09 Europe/Copenhagen] Undefined index: DashShiftlistSetting 
+           /home/iomediad/public_html/fitforkids/includes/functions.php, 8184 
+        #0 /home/iomediad/public_html/fitforkids/includes/functions.php(8184): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 8184, Array)
+        #1 /home/iomediad/public_html/fitforkids/actions/login.php(24): loginactioncustomer('admin@fitforkid...', '12345', 'dashboard', 's:921:"s:912:"s...')
+        #2 {main}
+[19-Mar-2020 13:45:43 Europe/Copenhagen] Wrong operation 
+           /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1629 
+        #0 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1682): MysqliDb->_buildDataPairs(Array, Array, 1)
+        #1 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1405): MysqliDb->_buildInsertQuery(Array)
+        #2 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #3 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('book', Array, 'INSERT')
+        #4 /home/iomediad/public_html/fitforkids/actions/updateBook.php(33): MysqliDb->insert('book', Array)
+        #5 {main}
+[19-Mar-2020 13:48:48 Europe/Copenhagen] Wrong operation 
+           /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1629 
+        #0 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1682): MysqliDb->_buildDataPairs(Array, Array, 1)
+        #1 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1405): MysqliDb->_buildInsertQuery(Array)
+        #2 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #3 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('book', Array, 'INSERT')
+        #4 /home/iomediad/public_html/fitforkids/actions/updateBook.php(34): MysqliDb->insert('book', Array)
+        #5 {main}
+[19-Mar-2020 23:26:37 Europe/Copenhagen] Missing argument 1 for generatePDF(), called in /home/iomediad/public_html/fitforkids/actions/downloadBook.php on line 4 and defined 
+           /home/iomediad/public_html/fitforkids/includes/functions.php, 66 
+        #0 /home/iomediad/public_html/fitforkids/includes/functions.php(66): php_error\ErrorHandler->php_error\{closure}(2, 'Missing argumen...', '/home/iomediad/...', 66, Array)
+        #1 /home/iomediad/public_html/fitforkids/actions/downloadBook.php(4): generatePDF()
+        #2 {main}
+[19-Mar-2020 23:48:49 Europe/Copenhagen] PHP Parse error:  syntax error, unexpected end of file in /home/iomediad/public_html/fitforkids/includes/functions.php on line 4225
+[19-Mar-2020 23:49:32 Europe/Copenhagen] PHP Parse error:  syntax error, unexpected end of file in /home/iomediad/public_html/fitforkids/includes/functions.php on line 7723

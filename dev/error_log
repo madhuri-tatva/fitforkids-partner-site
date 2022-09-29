@@ -1,0 +1,9 @@
+[22-Feb-2018 15:10:06 Europe/Copenhagen] Undefined index: HTTP_REFERER 
+           /home/plangyco/public_html/includes/config.php, 147 
+        #0 /home/plangyco/public_html/includes/config.php(147): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 147, Array)
+        #1 /home/plangyco/public_html/dev/printsession.php(2): require('/home/plangyco/...')
+        #2 {main}
+[07-Jun-2018 14:18:26 Europe/Copenhagen] Undefined index: Admin 
+           /home/plangyco/public_html/dev/printsession.php, 4 
+        #0 /home/plangyco/public_html/dev/printsession.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/plangyco/...', 4, Array)
+        #1 {main}

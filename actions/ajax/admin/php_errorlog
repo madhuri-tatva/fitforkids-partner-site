@@ -1,0 +1,99 @@
+[01-Oct-2016 15:15:43 Europe/Copenhagen] Undefined variable: to 
+           /home/curagard/public_html/pg/includes/functions.php, 742 
+        #0 /home/curagard/public_html/pg/includes/functions.php(742): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 742, Array)
+        #1 /home/curagard/public_html/pg/actions/ajax/admin/updatestatus.php(11): changestatuswithmailandsms('0', '87')
+        #2 {main}
+[01-Oct-2016 16:38:24 Europe/Copenhagen] Undefined variable: newstatus 
+           /home/curagard/public_html/pg/includes/functions.php, 647 
+        #0 /home/curagard/public_html/pg/includes/functions.php(647): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 647, Array)
+        #1 /home/curagard/public_html/pg/actions/ajax/admin/updatestatus.php(11): changestatuswithmailandsms('8', '87')
+        #2 {main}
+[01-Oct-2016 16:38:33 Europe/Copenhagen] Undefined variable: newstatus 
+           /home/curagard/public_html/pg/includes/functions.php, 647 
+        #0 /home/curagard/public_html/pg/includes/functions.php(647): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 647, Array)
+        #1 /home/curagard/public_html/pg/actions/ajax/admin/updatestatus.php(11): changestatuswithmailandsms('8', '87')
+        #2 {main}
+[06-Oct-2016 02:22:15 Europe/Copenhagen] Undefined index: productid 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 156 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(156): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 156, Array)
+        #1 {main}
+[06-Oct-2016 02:27:30 Europe/Copenhagen] Undefined variable: variations 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 02:27:39 Europe/Copenhagen] Undefined variable: variations 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 02:40:03 Europe/Copenhagen] Undefined index: sku 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 261 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(261): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 261, Array)
+        #1 {main}
+[06-Oct-2016 02:40:06 Europe/Copenhagen] Undefined index: sku 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 261 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(261): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 261, Array)
+        #1 {main}
+[06-Oct-2016 02:50:00 Europe/Copenhagen] array_multisort(): Argument #3 is expected to be an array or a sort flag 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 155 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_multisort...', '/home/curagard/...', 155, Array)
+        #1 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(155): array_multisort(Array, 4, NULL)
+        #2 {main}
+[06-Oct-2016 02:51:04 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 02:51:16 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 02:51:17 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 02:51:32 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 174 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(174): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 174, Array)
+        #1 {main}
+[06-Oct-2016 12:26:15 Europe/Copenhagen] Incorrect file format 'pg_stock' query: INSERT  INTO pg_stock (`uid`, `leftinstock`, `Price`)  VALUES (?, ?, ?) 
+           /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1367): MysqliDb->_buildQuery(NULL, Array)
+        #2 /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(679): MysqliDb->_buildInsert('stock', Array, 'INSERT')
+        #3 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(213): MysqliDb->insert('stock', Array)
+        #4 {main}
+[06-Oct-2016 17:25:40 Europe/Copenhagen] Undefined index: attributecombinationid 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 62 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 62, Array)
+        #1 {main}
+[06-Oct-2016 17:26:25 Europe/Copenhagen] Undefined index: attributecombinationid 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 62 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 62, Array)
+        #1 {main}
+[06-Oct-2016 17:27:06 Europe/Copenhagen] Undefined index: attributecombinationid 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 62 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 62, Array)
+        #1 {main}
+[06-Oct-2016 17:29:26 Europe/Copenhagen] Undefined variable: query3 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 66 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(66): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 66, Array)
+        #1 {main}
+[06-Oct-2016 17:30:05 Europe/Copenhagen] Undefined variable: query3 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 66 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(66): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 66, Array)
+        #1 {main}
+[06-Oct-2016 17:30:07 Europe/Copenhagen] Undefined variable: query3 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 66 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(66): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 66, Array)
+        #1 {main}
+[06-Oct-2016 17:36:32 Europe/Copenhagen] Undefined variable: ProductAttributeId 
+           /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php, 346 
+        #0 /home/curagard/public_html/pg/actions/ajax/admin/adminvariationshandler.php(346): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 346, Array)
+        #1 {main}
+[08-Oct-2016 02:25:33 Europe/Copenhagen] Undefined variable: ProductAttributeId 
+           /home/curagard/public_html/belibo/actions/ajax/admin/adminvariationshandler.php, 390 
+        #0 /home/curagard/public_html/belibo/actions/ajax/admin/adminvariationshandler.php(390): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 390, Array)
+        #1 {main}
+[08-Oct-2016 02:28:48 Europe/Copenhagen] Undefined variable: ProductAttributeId 
+           /home/curagard/public_html/belibo/actions/ajax/admin/adminvariationshandler.php, 390 
+        #0 /home/curagard/public_html/belibo/actions/ajax/admin/adminvariationshandler.php(390): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 390, Array)
+        #1 {main}

@@ -1,0 +1,168 @@
+[01-Oct-2016 15:55:35 Europe/Copenhagen] Undefined index: date 
+           /home/curagard/public_html/pg/dev/arraydumper.php, 16 
+        #0 /home/curagard/public_html/pg/dev/arraydumper.php(16): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 16, Array)
+        #1 {main}
+[01-Oct-2016 15:55:57 Europe/Copenhagen] Undefined index: date 
+           /home/curagard/public_html/pg/dev/arraydumper.php, 16 
+        #0 /home/curagard/public_html/pg/dev/arraydumper.php(16): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 16, Array)
+        #1 {main}
+[01-Oct-2016 15:56:02 Europe/Copenhagen] Undefined index: date 
+           /home/curagard/public_html/pg/dev/arraydumper.php, 16 
+        #0 /home/curagard/public_html/pg/dev/arraydumper.php(16): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 16, Array)
+        #1 {main}
+[01-Oct-2016 15:56:07 Europe/Copenhagen] Undefined index: date 
+           /home/curagard/public_html/pg/dev/arraydumper.php, 16 
+        #0 /home/curagard/public_html/pg/dev/arraydumper.php(16): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 16, Array)
+        #1 {main}
+[02-Oct-2016 05:32:12 CST6CDT] PHP Parse error:  syntax error, unexpected '"' in /home/curagard/public_html/pg/dev/arraydumper.php on line 6
+[02-Oct-2016 05:32:27 CST6CDT] PHP Parse error:  syntax error, unexpected '"' in /home/curagard/public_html/pg/dev/arraydumper.php on line 6
+[02-Oct-2016 12:36:02 Europe/Copenhagen] Undefined index: Price 
+           /home/curagard/public_html/pg/includes/functions.php, 1347 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1347): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 1347, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[02-Oct-2016 12:36:25 Europe/Copenhagen] Undefined index: Price 
+           /home/curagard/public_html/pg/includes/functions.php, 1347 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1347): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 1347, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[02-Oct-2016 12:36:32 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/pg/includes/functions.php, 1440 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1440): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 1440, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[02-Oct-2016 12:39:08 Europe/Copenhagen] Undefined index: array 
+           /home/curagard/public_html/pg/includes/functions.php, 1347 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1347): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 1347, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[02-Oct-2016 12:45:28 Europe/Copenhagen] Undefined offset: 87 
+           /home/curagard/public_html/pg/includes/functions.php, 1365 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1365): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/curagard/...', 1365, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[02-Oct-2016 12:47:06 Europe/Copenhagen] Undefined offset: 87 
+           /home/curagard/public_html/pg/includes/functions.php, 1365 
+        #0 /home/curagard/public_html/pg/includes/functions.php(1365): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/curagard/...', 1365, Array)
+        #1 /home/curagard/public_html/pg/dev/arraydumper.php(4): admindashboardcontentv3()
+        #2 {main}
+[03-Oct-2016 17:54:32 Europe/Copenhagen] Unknown column 'timestamp' in 'where clause' query: SELECT * FROM pg_reparations
+    WHERE timestamp > DATE_SUB(NOW(), INTERVAL 1 WEEK) 
+           /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/curagard/public_html/pg/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(430): MysqliDb->_prepareQuery()
+        #1 /home/curagard/public_html/pg/dev/stats.php(92): MysqliDb->rawQuery('SELECT * FROM p...')
+        #2 {main}
+[03-Oct-2016 18:34:44 Europe/Copenhagen] Invalid argument supplied for foreach() 
+           /home/curagard/public_html/pg/dev/stats.php, 152 
+        #0 /home/curagard/public_html/pg/dev/stats.php(152): php_error\ErrorHandler->php_error\{closure}(2, 'Invalid argumen...', '/home/curagard/...', 152, Array)
+        #1 {main}
+[14-Oct-2016 18:04:44 Europe/Copenhagen] PHP Fatal error:  Class 'GreekSlugGenerator' not found in /home/curagard/public_html/belibo/dev/arraydumper.php on line 5
+[14-Oct-2016 18:04:44 Europe/Copenhagen] Class 'GreekSlugGenerator' not found 
+           /home/curagard/public_html/belibo/includes/plugins/PHP-Error-master/src/php_error.php, 2803 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}('GreekSlugGenera...')
+        #1 /home/curagard/public_html/belibo/dev/arraydumper.php(5): spl_autoload_call('GreekSlugGenera...')
+        #2 {main}
+[14-Oct-2016 18:08:09 Europe/Copenhagen] PHP Fatal error:  Call to undefined function getSlug() in /home/curagard/public_html/belibo/dev/arraydumper.php on line 5
+[14-Oct-2016 18:08:09 Europe/Copenhagen] Call to undefined function getSlug() 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 5
+[14-Oct-2016 18:08:15 Europe/Copenhagen] PHP Fatal error:  Class 'GreekSlugGenerator' not found in /home/curagard/public_html/belibo/dev/arraydumper.php on line 5
+[14-Oct-2016 18:08:15 Europe/Copenhagen] Class 'GreekSlugGenerator' not found 
+           /home/curagard/public_html/belibo/includes/plugins/PHP-Error-master/src/php_error.php, 2803 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}('GreekSlugGenera...')
+        #1 /home/curagard/public_html/belibo/dev/arraydumper.php(5): spl_autoload_call('GreekSlugGenera...')
+        #2 {main}
+[14-Oct-2016 18:09:03 Europe/Copenhagen] PHP Fatal error:  Class 'GreekSlugGenerator' not found in /home/curagard/public_html/belibo/dev/arraydumper.php on line 5
+[14-Oct-2016 18:09:03 Europe/Copenhagen] Class 'GreekSlugGenerator' not found 
+           /home/curagard/public_html/belibo/includes/plugins/PHP-Error-master/src/php_error.php, 2803 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}('GreekSlugGenera...')
+        #1 /home/curagard/public_html/belibo/dev/arraydumper.php(5): spl_autoload_call('GreekSlugGenera...')
+        #2 {main}
+[14-Oct-2016 22:30:40 Europe/Copenhagen] SplFileObject::__construct(/path/to/your/csv/file.csv): failed to open stream: No such file or directory 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(12): SplFileObject->__construct('/path/to/your/c...', 'a+')
+        #1 {main}
+[14-Oct-2016 22:38:13 Europe/Copenhagen] SplFileObject::__construct(/path/to/my/file.csv): failed to open stream: No such file or directory 
+           /home/curagard/public_html/belibo/includes/plugins/csv-master/src/AbstractCsv.php, 242 
+        #0 /home/curagard/public_html/belibo/includes/plugins/csv-master/src/AbstractCsv.php(242): SplFileObject->__construct('/path/to/my/fil...', 'r+')
+        #1 /home/curagard/public_html/belibo/includes/plugins/csv-master/src/Config/Output.php(151): League\Csv\AbstractCsv->getIterator()
+        #2 /home/curagard/public_html/belibo/includes/plugins/csv-master/src/Config/Output.php(199): League\Csv\AbstractCsv->getInputBOM()
+        #3 /home/curagard/public_html/belibo/includes/plugins/csv-master/src/Config/Output.php(187): League\Csv\AbstractCsv->fpassthru()
+        #4 /home/curagard/public_html/belibo/dev/arraydumper.php(28): League\Csv\AbstractCsv->output()
+        #5 {main}
+[14-Oct-2016 23:34:21 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[14-Oct-2016 23:34:21 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 26 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(26): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 26, Array)
+        #1 {main}
+[14-Oct-2016 23:34:21 Europe/Copenhagen] PHP Fatal error:  Call to a member function insertAll() on null in /home/curagard/public_html/belibo/dev/arraydumper.php on line 26
+[14-Oct-2016 23:34:21 Europe/Copenhagen] Call to a member function insertAll() on null 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 26
+[14-Oct-2016 23:37:14 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[14-Oct-2016 23:39:22 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[14-Oct-2016 23:40:17 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[14-Oct-2016 23:40:18 Europe/Copenhagen] PHP Fatal error:  Class 'Reader' not found in /home/curagard/public_html/belibo/dev/arraydumper.php on line 32
+[14-Oct-2016 23:40:18 Europe/Copenhagen] Class 'Reader' not found 
+           /home/curagard/public_html/belibo/includes/plugins/PHP-Error-master/src/php_error.php, 2803 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}('Reader')
+        #1 /home/curagard/public_html/belibo/dev/arraydumper.php(32): spl_autoload_call('Reader')
+        #2 {main}
+[14-Oct-2016 23:40:32 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[15-Oct-2016 01:19:54 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[15-Oct-2016 01:24:05 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[18-Oct-2016 00:35:28 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[30-Oct-2016 14:45:49 Europe/Copenhagen] Undefined variable: writer 
+           /home/curagard/public_html/belibo/dev/arraydumper.php, 24 
+        #0 /home/curagard/public_html/belibo/dev/arraydumper.php(24): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/curagard/...', 24, Array)
+        #1 {main}
+[30-Oct-2016 17:04:03 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:04:04 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:04:06 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:04:16 Europe/Copenhagen] Undefined index: qty 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:04:51 Europe/Copenhagen] Undefined index: totalprice 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:04:52 Europe/Copenhagen] Undefined index: totalprice 
+           /home/curagard/public_html/belibo/dev/printsession.php, 12 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(12): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/curagard/...', 12, Array)
+        #1 {main}
+[30-Oct-2016 17:07:11 Europe/Copenhagen] Array to string conversion 
+           /home/curagard/public_html/belibo/dev/printsession.php, 15 
+        #0 /home/curagard/public_html/belibo/dev/printsession.php(15): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/curagard/...', 15, Array)
+        #1 {main}
