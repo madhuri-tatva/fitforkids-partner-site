@@ -1,0 +1,104 @@
+[21-Feb-2019 13:04:30 Europe/Copenhagen] Undefined index: 2019-02-16 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 247 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(247): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 247, Array)
+        #1 {main}
+[21-Feb-2019 14:32:04 Europe/Copenhagen] Undefined index: id 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 4 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 4, Array)
+        #1 {main}
+[21-Feb-2019 14:42:01 Europe/Copenhagen] Undefined index: views 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 17 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 17, Array)
+        #1 {main}
+[27-Feb-2019 10:25:56 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 248 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(248): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 248, Array)
+        #1 {main}
+[27-Feb-2019 10:26:06 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 274 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(274): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 274, Array)
+        #1 {main}
+[27-Feb-2019 10:45:08 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 248 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(248): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 248, Array)
+        #1 {main}
+[28-Feb-2019 13:21:58 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 274 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(274): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 274, Array)
+        #1 {main}
+[01-Mar-2019 15:02:56 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php, 248 
+        #0 /home/optyio/public_html/modules/sidecontent/viewLandingpageStats.php(248): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 248, Array)
+        #1 {main}
+[12-Jul-2019 15:56:59 Europe/Copenhagen] Undefined index: projectId 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 4 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 4, Array)
+        #1 {main}
+[12-Jul-2019 15:57:02 Europe/Copenhagen] Undefined index: projectId 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 4 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 4, Array)
+        #1 {main}
+[12-Jul-2019 15:57:06 Europe/Copenhagen] Undefined index: projectId 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 4 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 4, Array)
+        #1 {main}
+[12-Jul-2019 15:57:11 Europe/Copenhagen] Undefined index: projectId 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 4 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 4, Array)
+        #1 {main}
+[12-Jul-2019 13:58:03 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 7
+[12-Jul-2019 13:58:24 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 7
+[12-Jul-2019 13:58:30 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 7
+[12-Jul-2019 15:59:47 Europe/Copenhagen] PHP Fatal error:  Call to undefined function explore() in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 13
+[12-Jul-2019 16:00:41 Europe/Copenhagen] PHP Fatal error:  Call to undefined function explore() in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 13
+[28-Jul-2019 14:46:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 72
+[28-Jul-2019 14:47:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 72
+[28-Jul-2019 14:48:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 72
+[28-Jul-2019 14:52:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 72
+[28-Jul-2019 14:52:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 72
+[28-Jul-2019 14:54:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 77
+[28-Jul-2019 14:54:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 77
+[28-Jul-2019 14:54:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 77
+[28-Jul-2019 14:54:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 77
+[28-Jul-2019 14:54:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 77
+[28-Jul-2019 14:55:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 66
+[28-Jul-2019 14:55:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 66
+[28-Jul-2019 19:26:55 Europe/Copenhagen] Array to string conversion 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 68 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(68): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/otaskio/p...', 68, Array)
+        #1 {main}
+[28-Jul-2019 19:31:45 Europe/Copenhagen] Invalid argument supplied for foreach() 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 68 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(68): php_error\ErrorHandler->php_error\{closure}(2, 'Invalid argumen...', '/home/otaskio/p...', 68, Array)
+        #1 {main}
+[28-Jul-2019 19:32:40 Europe/Copenhagen] Invalid argument supplied for foreach() 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 68 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(68): php_error\ErrorHandler->php_error\{closure}(2, 'Invalid argumen...', '/home/otaskio/p...', 68, Array)
+        #1 {main}
+[28-Jul-2019 19:32:52 Europe/Copenhagen] Invalid argument supplied for foreach() 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 68 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(68): php_error\ErrorHandler->php_error\{closure}(2, 'Invalid argumen...', '/home/otaskio/p...', 68, Array)
+        #1 {main}
+[28-Jul-2019 19:33:39 Europe/Copenhagen] Invalid argument supplied for foreach() 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 68 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(68): php_error\ErrorHandler->php_error\{closure}(2, 'Invalid argumen...', '/home/otaskio/p...', 68, Array)
+        #1 {main}
+[28-Jul-2019 19:35:18 Europe/Copenhagen] Illegal string offset 'Action' 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 92 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(92): php_error\ErrorHandler->php_error\{closure}(2, 'Illegal string ...', '/home/otaskio/p...', 92, Array)
+        #1 {main}
+[28-Jul-2019 19:38:49 Europe/Copenhagen] Undefined index: taskContent 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 88 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(88): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 88, Array)
+        #1 {main}
+[28-Jul-2019 23:35:12 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 21
+[28-Jul-2019 23:36:54 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 18
+[28-Jul-2019 23:41:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php on line 19
+[29-Jul-2019 02:02:24 Europe/Copenhagen] Undefined index: Id 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 25 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(25): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 25, Array)
+        #1 {main}
+[29-Jul-2019 02:22:11 Europe/Copenhagen] Undefined index: Id 
+           /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php, 26 
+        #0 /home/otaskio/public_html/modules/sidecontent/viewProjectDetails.php(26): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 26, Array)
+        #1 {main}

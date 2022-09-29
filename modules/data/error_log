@@ -1,0 +1,538 @@
+[13-Feb-2019 21:38:55 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:39:12 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:39:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 22:39:31 Europe/Copenhagen] Undefined index: period 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 4 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 4, Array)
+        #1 {main}
+[13-Feb-2019 21:39:44 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:40:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:40:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:40:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 21:41:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 26
+[13-Feb-2019 22:41:25 Europe/Copenhagen] Undefined variable: array 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 34 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(34): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 34, Array)
+        #1 {main}
+[13-Feb-2019 22:41:42 Europe/Copenhagen] Undefined variable: track_year 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 69 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(69): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 69, Array)
+        #1 {main}
+[13-Feb-2019 22:42:20 Europe/Copenhagen] Undefined variable: track_month 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 90 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(90): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 90, Array)
+        #1 {main}
+[13-Feb-2019 23:00:16 Europe/Copenhagen] file_get_contents(/home/optyio/public_html/coeus/zenosparadox_2019_Feb.json): failed to open stream: Ingen sådan fil eller filkatalog 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 11 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'file_get_conten...', '/home/optyio/pu...', 11, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(11): file_get_contents('/home/optyio/pu...')
+        #2 {main}
+[13-Feb-2019 23:15:42 Europe/Copenhagen] Array to string conversion 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 47 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(47): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/optyio/pu...', 47, Array)
+        #1 {main}
+[13-Feb-2019 23:16:11 Europe/Copenhagen] Undefined offset: 2 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 47 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(47): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 47, Array)
+        #1 {main}
+[13-Feb-2019 23:16:51 Europe/Copenhagen] Undefined offset: 1 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 47 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(47): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 47, Array)
+        #1 {main}
+[13-Feb-2019 23:18:00 Europe/Copenhagen] Undefined offset: 1 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 47 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(47): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 47, Array)
+        #1 {main}
+[13-Feb-2019 23:20:32 Europe/Copenhagen] Undefined offset: 4 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 47 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(47): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 47, Array)
+        #1 {main}
+[13-Feb-2019 22:20:43 UTC] PHP Fatal error:  Cannot use [] for reading in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 47
+[13-Feb-2019 23:27:49 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 48 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 48, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(48): array_combine(Array, Array)
+        #2 {main}
+[13-Feb-2019 23:28:18 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 48 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 48, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(48): array_combine(Array, Array)
+        #2 {main}
+[13-Feb-2019 23:33:20 Europe/Copenhagen] Uninitialized string offset: 1 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 43 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(43): php_error\ErrorHandler->php_error\{closure}(8, 'Uninitialized s...', '/home/optyio/pu...', 43, Array)
+        #1 {main}
+[14-Feb-2019 00:07:41 Europe/Copenhagen] Undefined index: 2019-02-07 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 67 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(67): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 67, Array)
+        #1 {main}
+[14-Feb-2019 00:09:12 Europe/Copenhagen] Undefined index: 2019-02-07 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 67 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(67): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 67, Array)
+        #1 {main}
+[14-Feb-2019 00:09:46 Europe/Copenhagen] Undefined index: 2019-02-07 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 71 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(71): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 71, Array)
+        #1 {main}
+[14-Feb-2019 00:10:52 Europe/Copenhagen] Undefined index: 2019-02-07 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 69 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(69): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 69, Array)
+        #1 {main}
+[14-Feb-2019 00:11:54 Europe/Copenhagen] Undefined index: 2019-02-07 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 69 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(69): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 69, Array)
+        #1 {main}
+[14-Feb-2019 00:14:17 Europe/Copenhagen] Undefined offset: 2 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 70 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(70): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 70, Array)
+        #1 {main}
+[14-Feb-2019 00:15:00 Europe/Copenhagen] Undefined index: 2019-02-08 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 61, Array)
+        #1 {main}
+[13-Feb-2019 23:15:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 61
+[13-Feb-2019 23:15:19 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 61
+[14-Feb-2019 00:15:24 Europe/Copenhagen] Undefined index: 2019-02-08 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 61, Array)
+        #1 {main}
+[13-Feb-2019 23:16:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 61
+[14-Feb-2019 00:41:29 Europe/Copenhagen] Undefined variable: graph_dates 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 102 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(102): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 102, Array)
+        #1 {main}
+[14-Feb-2019 00:42:42 Europe/Copenhagen] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 77
+[14-Feb-2019 00:44:27 Europe/Copenhagen] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1703962 bytes) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 77
+[14-Feb-2019 00:44:37 Europe/Copenhagen] Undefined variable: date 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 17 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(17): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 17, Array)
+        #1 {main}
+[14-Feb-2019 00:45:00 Europe/Copenhagen] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 531103744 bytes) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 20
+[14-Feb-2019 00:45:23 Europe/Copenhagen] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 531103744 bytes) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 20
+[14-Feb-2019 00:47:13 Europe/Copenhagen] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 77
+[14-Feb-2019 00:49:05 Europe/Copenhagen] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 77
+[14-Feb-2019 00:50:28 Europe/Copenhagen] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 77
+[14-Feb-2019 00:53:13 Europe/Copenhagen] Undefined offset: 1 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 81 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(81): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 81, Array)
+        #1 {main}
+[14-Feb-2019 21:41:18 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/optyio/public_html/modules/data/viewKPIDashboard.php on line 4
+[19-Feb-2019 14:01:03 Europe/Copenhagen] Array to string conversion 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 62 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/optyio/pu...', 62, Array)
+        #1 {main}
+[19-Feb-2019 14:01:12 Europe/Copenhagen] strlen() expects parameter 1 to be string, array given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 87 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'strlen() expect...', '/home/optyio/pu...', 87, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(87): strlen(Array)
+        #2 {main}
+[19-Feb-2019 14:01:33 Europe/Copenhagen] Cannot use a scalar value as an array 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 62 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(62): php_error\ErrorHandler->php_error\{closure}(2, 'Cannot use a sc...', '/home/optyio/pu...', 62, Array)
+        #1 {main}
+[19-Feb-2019 14:01:47 Europe/Copenhagen] Array to string conversion 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 62 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/optyio/pu...', 62, Array)
+        #1 {main}
+[19-Feb-2019 13:01:55 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 14:03:07 Europe/Copenhagen] array_merge(): Argument #1 is not an array 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 63 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_merge(): ...', '/home/optyio/pu...', 63, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(63): array_merge(0, Array)
+        #2 {main}
+[19-Feb-2019 14:03:21 Europe/Copenhagen] PHP Fatal error:  Call to undefined function arrray() in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 38
+[19-Feb-2019 14:04:20 Europe/Copenhagen] file_get_contents(/home/optyio/public_html/var/blackbox/2019/02/55005-85-446-157.json): failed to open stream: Ingen sådan fil eller filkatalog 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 46 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'file_get_conten...', '/home/optyio/pu...', 46, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(46): file_get_contents('/home/optyio/pu...')
+        #2 {main}
+[19-Feb-2019 14:04:45 Europe/Copenhagen] file_get_contents(/home/optyio/public_html/var/blackbox/2019/02/55005-85-446-157.json): failed to open stream: Ingen sådan fil eller filkatalog 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 46 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'file_get_conten...', '/home/optyio/pu...', 46, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(46): file_get_contents('/home/optyio/pu...')
+        #2 {main}
+[19-Feb-2019 14:07:08 Europe/Copenhagen] Undefined variable: content_last 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 62 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 62, Array)
+        #1 {main}
+[19-Feb-2019 14:11:53 Europe/Copenhagen] array_merge(): Argument #1 is not an array 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 78 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_merge(): ...', '/home/optyio/pu...', 78, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(78): array_merge('', '')
+        #2 {main}
+[19-Feb-2019 14:12:17 Europe/Copenhagen] array_merge(): Argument #1 is not an array 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 78 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_merge(): ...', '/home/optyio/pu...', 78, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(78): array_merge(0, 0)
+        #2 {main}
+[19-Feb-2019 14:33:22 Europe/Copenhagen] explode() expects parameter 2 to be string, array given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 53 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'explode() expec...', '/home/optyio/pu...', 53, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(53): explode(',', Array)
+        #2 {main}
+[19-Feb-2019 14:33:42 Europe/Copenhagen] explode() expects parameter 3 to be long, array given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 53 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'explode() expec...', '/home/optyio/pu...', 53, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(53): explode(',', '', Array)
+        #2 {main}
+[19-Feb-2019 14:33:56 Europe/Copenhagen] explode() expects parameter 2 to be string, array given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 53 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'explode() expec...', '/home/optyio/pu...', 53, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(53): explode(',', Array)
+        #2 {main}
+[19-Feb-2019 13:38:54 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:39:26 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:39:47 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:39:56 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:40:05 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 63
+[19-Feb-2019 13:40:19 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:40:27 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:40:52 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:41:15 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 13:41:17 UTC] PHP Parse error:  syntax error, unexpected '$log_current' (T_VARIABLE) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 62
+[19-Feb-2019 14:41:32 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 61, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): array_combine(Array, Array)
+        #2 {main}
+[19-Feb-2019 14:41:42 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 61, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): array_combine(Array, Array)
+        #2 {main}
+[19-Feb-2019 14:41:52 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 61, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): array_combine(Array, Array)
+        #2 {main}
+[19-Feb-2019 14:42:40 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 61, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): array_combine(Array, Array)
+        #2 {main}
+[19-Feb-2019 14:43:04 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 61 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 61, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(61): array_combine(Array, Array)
+        #2 {main}
+[19-Feb-2019 14:45:24 Europe/Copenhagen] strlen() expects parameter 1 to be string, array given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 132 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'strlen() expect...', '/home/optyio/pu...', 132, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(132): strlen(Array)
+        #2 {main}
+[19-Feb-2019 14:46:54 Europe/Copenhagen] Undefined offset: 2 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 143 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(143): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/optyio/pu...', 143, Array)
+        #1 {main}
+[19-Feb-2019 14:59:21 Europe/Copenhagen] Undefined index: IP 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 117 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(117): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 117, Array)
+        #1 {main}
+[19-Feb-2019 14:05:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 125
+[19-Feb-2019 14:11:53 UTC] PHP Fatal error:  Cannot use [] for reading in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 125
+[19-Feb-2019 16:07:27 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 221 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/optyio/pu...', 221, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(221): in_array('78.111.164.42', '78.111.164.42')
+        #2 {main}
+[19-Feb-2019 16:08:21 Europe/Copenhagen] Undefined index: IP 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 219 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(219): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 219, Array)
+        #1 {main}
+[19-Feb-2019 16:08:52 Europe/Copenhagen] Undefined index: 2019-02-13 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 217 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(217): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 217, Array)
+        #1 {main}
+[19-Feb-2019 16:09:20 Europe/Copenhagen] Undefined index: 2019-02-13 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 217 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(217): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 217, Array)
+        #1 {main}
+[19-Feb-2019 16:09:41 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 225 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/optyio/pu...', 225, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(225): in_array('188.182.215.51', '188.182.215.51')
+        #2 {main}
+[19-Feb-2019 16:11:22 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 228 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/optyio/pu...', 228, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(228): in_array('188.182.215.51', '188.182.215.51')
+        #2 {main}
+[19-Feb-2019 16:11:47 Europe/Copenhagen] Undefined index: 2019-02-15 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 225 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(225): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 225, Array)
+        #1 {main}
+[19-Feb-2019 16:13:01 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 225 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/optyio/pu...', 225, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(225): in_array('188.182.215.51', '188.182.215.51')
+        #2 {main}
+[19-Feb-2019 15:31:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 257
+[19-Feb-2019 15:31:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 257
+[19-Feb-2019 15:32:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 257
+[19-Feb-2019 15:34:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 255
+[19-Feb-2019 16:43:39 Europe/Copenhagen] Undefined index: 2019-02-13 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 262 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(262): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 262, Array)
+        #1 {main}
+[19-Feb-2019 15:52:49 UTC] PHP Parse error:  syntax error, unexpected '' Days'' (T_CONSTANT_ENCAPSED_STRING) in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 8
+[20-Feb-2019 12:10:42 Europe/Copenhagen] Undefined index: views 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 5 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(5): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 5, Array)
+        #1 {main}
+[20-Feb-2019 12:11:32 Europe/Copenhagen] Undefined index: views 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 5 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(5): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 5, Array)
+        #1 {main}
+[20-Feb-2019 12:12:15 Europe/Copenhagen] Undefined variable: settingViews 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 348 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(348): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 348, Array)
+        #1 {main}
+[20-Feb-2019 13:19:42 Europe/Copenhagen] Undefined index: views 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 5 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(5): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 5, Array)
+        #1 {main}
+[20-Feb-2019 13:19:58 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 305 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(305): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 305, Array)
+        #1 {main}
+[20-Feb-2019 13:20:30 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 261 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(261): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 261, Array)
+        #1 {main}
+[20-Feb-2019 12:43:23 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 297
+[20-Feb-2019 12:43:37 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 297
+[20-Feb-2019 12:43:47 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 297
+[20-Feb-2019 13:48:26 Europe/Copenhagen] str_repeat() expects exactly 2 parameters, 3 given 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 300 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'str_repeat() ex...', '/home/optyio/pu...', 300, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(300): str_repeat(',', '.', 0,347222222222)
+        #2 {main}
+[20-Feb-2019 14:01:16 Europe/Copenhagen] Undefined variable: data_conversionrate 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 356 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(356): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 356, Array)
+        #1 {main}
+[20-Feb-2019 14:01:51 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 320 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(320): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 320, Array)
+        #1 {main}
+[20-Feb-2019 21:55:31 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 324 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(324): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 324, Array)
+        #1 {main}
+[21-Feb-2019 15:24:55 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:24:55 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:26:16 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:26:16 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:27:56 Europe/Copenhagen] Undefined index: 2019-02-16 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[21-Feb-2019 15:27:56 Europe/Copenhagen] Undefined index: 2019-02-16 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[21-Feb-2019 15:29:30 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:29:30 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:30:20 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:30:20 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:30:53 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:30:53 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:31:55 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:33:44 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[21-Feb-2019 15:33:44 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[21-Feb-2019 15:34:00 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 68 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 68, Array)
+        #1 /home/optyio/public_html/modules/data/viewGraphDashboard.php(68): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:34:00 Europe/Copenhagen] array_combine(): Both parameters should have an equal number of elements 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 64 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'array_combine()...', '/home/optyio/pu...', 64, Array)
+        #1 /home/optyio/public_html/modules/data/viewKPIDashboard.php(64): array_combine(Array, Array)
+        #2 {main}
+[21-Feb-2019 15:34:49 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[21-Feb-2019 15:34:49 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[27-Feb-2019 10:23:46 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:24:17 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:25:47 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:25:50 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:26:02 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:27:01 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 10:28:44 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 289 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(289): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 289, Array)
+        #1 {main}
+[27-Feb-2019 09:36:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 304
+[27-Feb-2019 09:37:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 306
+[27-Feb-2019 09:37:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 306
+[27-Feb-2019 09:37:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/optyio/public_html/modules/data/viewGraphDashboard.php on line 305
+[27-Feb-2019 10:39:44 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 293 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(293): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 293, Array)
+        #1 {main}
+[27-Feb-2019 10:40:46 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 235 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(235): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 235, Array)
+        #1 {main}
+[27-Feb-2019 10:41:24 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 290 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(290): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 290, Array)
+        #1 {main}
+[28-Feb-2019 13:21:40 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:21:40 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[28-Feb-2019 13:21:46 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:21:46 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[28-Feb-2019 13:22:03 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[28-Feb-2019 13:22:03 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:30:09 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:30:09 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[28-Feb-2019 13:30:09 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:30:09 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 285 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(285): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 285, Array)
+        #1 {main}
+[28-Feb-2019 13:31:07 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 314 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(314): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 314, Array)
+        #1 {main}
+[28-Feb-2019 13:31:46 Europe/Copenhagen] Division by zero 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 320 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(320): php_error\ErrorHandler->php_error\{closure}(2, 'Division by zer...', '/home/optyio/pu...', 320, Array)
+        #1 {main}
+[28-Feb-2019 13:34:20 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 284 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(284): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 284, Array)
+        #1 {main}
+[28-Feb-2019 13:37:21 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 282 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(282): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 282, Array)
+        #1 {main}
+[28-Feb-2019 13:38:46 Europe/Copenhagen] Undefined index: 2019-02-21 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 282 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(282): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 282, Array)
+        #1 {main}
+[01-Mar-2019 00:17:39 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 288 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(288): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 288, Array)
+        #1 {main}
+[01-Mar-2019 00:17:45 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 288 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(288): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 288, Array)
+        #1 {main}
+[01-Mar-2019 00:20:13 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 290 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(290): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 290, Array)
+        #1 {main}
+[01-Mar-2019 00:20:25 Europe/Copenhagen] Undefined variable: array_relevant 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 131 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(131): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 131, Array)
+        #1 {main}
+[01-Mar-2019 00:25:26 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/data/viewGraphDashboard.php, 288 
+        #0 /home/optyio/public_html/modules/data/viewGraphDashboard.php(288): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 288, Array)
+        #1 {main}
+[01-Mar-2019 00:28:51 Europe/Copenhagen] Undefined index: 2019-02-28 
+           /home/optyio/public_html/modules/data/viewKPIDashboard.php, 282 
+        #0 /home/optyio/public_html/modules/data/viewKPIDashboard.php(282): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 282, Array)
+        #1 {main}

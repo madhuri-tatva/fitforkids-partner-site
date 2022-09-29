@@ -1,0 +1,346 @@
+[15-Feb-2019 15:26:18 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/editBlock.php on line 84
+[15-Feb-2019 15:27:48 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/editBlock.php on line 84
+[15-Feb-2019 15:28:18 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/editBlock.php on line 84
+[15-Feb-2019 15:29:07 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/editBlock.php on line 84
+[16-Feb-2019 13:14:00 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:14:06 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:14:49 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:15:49 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:16:32 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:16:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:16:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:16:37 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:16:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 21
+[16-Feb-2019 13:17:48 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/optyio/public_html/modules/modal/form.php on line 27
+[16-Feb-2019 13:18:22 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:19:06 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 40
+[16-Feb-2019 13:19:07 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 40
+[16-Feb-2019 13:19:59 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 36
+[16-Feb-2019 13:20:00 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 36
+[16-Feb-2019 13:20:07 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:10 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:12 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:17 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:21 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:24 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:20:26 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/form.php on line 11
+[16-Feb-2019 13:21:24 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 42
+[16-Feb-2019 13:21:32 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 42
+[16-Feb-2019 13:21:44 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 42
+[16-Feb-2019 13:22:20 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 38
+[16-Feb-2019 13:22:55 UTC] PHP Parse error:  syntax error, unexpected '$form' (T_VARIABLE) in /home/optyio/public_html/modules/modal/form.php on line 24
+[16-Feb-2019 13:23:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/optyio/public_html/modules/modal/form.php on line 26
+[18-Feb-2019 14:46:37 UTC] PHP Parse error:  syntax error, unexpected '"select"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/optyio/public_html/modules/modal/form.php on line 60
+[18-Feb-2019 14:46:38 UTC] PHP Parse error:  syntax error, unexpected '"select"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/optyio/public_html/modules/modal/form.php on line 60
+[18-Feb-2019 14:47:02 UTC] PHP Parse error:  syntax error, unexpected '"'select'"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/optyio/public_html/modules/modal/form.php on line 60
+[18-Feb-2019 15:48:16 Europe/Copenhagen] Use of undefined constant select - assumed 'select' 
+           /home/optyio/public_html/modules/modal/form.php, 60 
+        #0 /home/optyio/public_html/modules/modal/form.php(60): php_error\ErrorHandler->php_error\{closure}(8, 'Use of undefine...', '/home/optyio/pu...', 60, Array)
+        #1 {main}
+[18-Feb-2019 14:49:38 UTC] PHP Parse error:  syntax error, unexpected 'select' (T_STRING), expecting ',' or ';' in /home/optyio/public_html/modules/modal/form.php on line 60
+[19-Feb-2019 00:03:20 Europe/Copenhagen] Illegal string offset 'Id' 
+           /home/optyio/public_html/modules/modal/form.php, 91 
+        #0 /home/optyio/public_html/modules/modal/form.php(91): php_error\ErrorHandler->php_error\{closure}(2, 'Illegal string ...', '/home/optyio/pu...', 91, Array)
+        #1 {main}
+[19-Feb-2019 00:03:25 Europe/Copenhagen] Illegal string offset 'Id' 
+           /home/optyio/public_html/modules/modal/form.php, 91 
+        #0 /home/optyio/public_html/modules/modal/form.php(91): php_error\ErrorHandler->php_error\{closure}(2, 'Illegal string ...', '/home/optyio/pu...', 91, Array)
+        #1 {main}
+[21-Feb-2019 15:59:39 Europe/Copenhagen] Undefined variable: fieldId 
+           /home/optyio/public_html/modules/modal/form.php, 176 
+        #0 /home/optyio/public_html/modules/modal/form.php(176): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/optyio/pu...', 176, Array)
+        #1 {main}
+[21-Feb-2019 16:17:35 Europe/Copenhagen] PHP Fatal error:  Call to undefined method MysqliDb::sortBy() in /home/optyio/public_html/modules/modal/form.php on line 56
+[27-Feb-2019 15:19:24 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/settingsBlock.php on line 194
+[27-Feb-2019 15:19:32 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/modal/settingsBlock.php on line 194
+[27-Feb-2019 16:35:51 Europe/Copenhagen] Undefined index: FilenName 
+           /home/optyio/public_html/modules/modal/settingsBlock.php, 216 
+        #0 /home/optyio/public_html/modules/modal/settingsBlock.php(216): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/optyio/pu...', 216, Array)
+        #1 {main}
+[19-Aug-2019 01:48:48 Europe/Copenhagen] Undefined index: puid 
+           /home/otaskio/public_html/modules/modal/shareProject.php, 4 
+        #0 /home/otaskio/public_html/modules/modal/shareProject.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/otaskio/p...', 4, Array)
+        #1 {main}
+[11-Sep-2019 12:46:06 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 18
+[11-Sep-2019 12:46:11 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 18
+[11-Sep-2019 12:46:14 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 18
+[11-Sep-2019 12:46:17 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 18
+[11-Sep-2019 12:47:46 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 18
+[11-Sep-2019 12:48:52 UTC] PHP Warning:  include(../includes/config.php): failed to open stream: No such file or directory in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 2
+[11-Sep-2019 12:48:52 UTC] PHP Warning:  include(../includes/config.php): failed to open stream: No such file or directory in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 2
+[11-Sep-2019 12:48:52 UTC] PHP Warning:  include(): Failed opening '../includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 2
+[11-Sep-2019 12:48:52 UTC] PHP Fatal error:  Call to a member function where() on null in /home/iomediad/public_html/plast1/modules/modal/crudCategory.php on line 20
+[16-Sep-2019 12:46:47 Europe/Copenhagen] Table 'iomediad_plast1.pg_salesrep' doesn't exist query: SELECT  * FROM pg_salesrep WHERE  Id = ?  LIMIT 1 
+           /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(1)
+        #2 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(625): MysqliDb->get('salesrep', 1, '*')
+        #3 /home/iomediad/public_html/plast1/modules/modal/crudSalesrep.php(23): MysqliDb->getOne('salesrep')
+        #4 {main}
+[16-Sep-2019 12:47:21 Europe/Copenhagen] Undefined index: Name 
+           /home/iomediad/public_html/plast1/modules/modal/crudSalesrep.php, 25 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudSalesrep.php(25): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 25, Array)
+        #1 {main}
+[16-Sep-2019 17:02:10 Europe/Copenhagen] Unknown column 'ParentCategories' in 'where clause' query: SELECT  * FROM pg_categories WHERE  ParentCategories = ?  
+           /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/plast1/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(NULL)
+        #2 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(64): MysqliDb->get('categories')
+        #3 {main}
+[02-Oct-2019 01:41:41 Europe/Copenhagen] Undefined variable: salesrepId 
+           /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php, 91 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php(91): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 91, Array)
+        #1 {main}
+[04-Oct-2019 18:04:34 Europe/Copenhagen] Undefined variable: customerAddress 
+           /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php, 85 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php(85): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 85, Array)
+        #1 {main}
+[04-Oct-2019 18:05:04 Europe/Copenhagen] Undefined variable: customerAddress 
+           /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php, 85 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCustomer.php(85): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 85, Array)
+        #1 {main}
+[06-Oct-2019 15:13:54 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[06-Oct-2019 15:14:19 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:30:46 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:31:01 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:31:19 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:31:55 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:32:10 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:33:30 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:34:55 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[10-Oct-2019 14:35:05 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[11-Oct-2019 13:52:25 Europe/Copenhagen] Undefined index: ParentRef 
+           /home/iomediad/public_html/plast1/modules/modal/crudCategory.php, 30 
+        #0 /home/iomediad/public_html/plast1/modules/modal/crudCategory.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[30-Oct-2019 00:56:44 Europe/Copenhagen] Undefined variable: action 
+           /home/iomediad/public_html/plast1/modules/modal/deleteOrder.php, 21 
+        #0 /home/iomediad/public_html/plast1/modules/modal/deleteOrder.php(21): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 21, Array)
+        #1 {main}
+[29-Dec-2019 23:14:16 Europe/Copenhagen] Undefined index: action 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 4 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[29-Dec-2019 23:18:47 Europe/Copenhagen] Undefined variable: salesrepFirstName 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 57 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(57): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 57, Array)
+        #1 {main}
+[29-Dec-2019 23:19:12 Europe/Copenhagen] Undefined variable: user 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 74 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(74): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 74, Array)
+        #1 {main}
+[29-Dec-2019 23:19:26 Europe/Copenhagen] Undefined variable: childData 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 74 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(74): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 74, Array)
+        #1 {main}
+[31-Dec-2019 01:47:10 Europe/Copenhagen] Undefined variable: userFirstName 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudProduct.php, 40 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudProduct.php(40): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 40, Array)
+        #1 {main}
+[31-Dec-2019 02:22:18 Europe/Copenhagen] Undefined variable: childId 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudUser.php, 52 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudUser.php(52): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 52, Array)
+        #1 {main}
+[03-Jan-2020 00:19:43 Europe/Copenhagen] Undefined index: action 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php, 5 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php(5): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 5, Array)
+        #1 {main}
+[04-Jan-2020 15:05:25 Europe/Copenhagen] Undefined index: jpeg 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudProduct.php, 13 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudProduct.php(13): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 13, Array)
+        #1 {main}
+[06-Jan-2020 12:37:08 Europe/Copenhagen] Undefined variable: userId 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 53 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(53): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 53, Array)
+        #1 {main}
+[06-Jan-2020 12:37:39 Europe/Copenhagen] Undefined variable: userId 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 53 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(53): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 53, Array)
+        #1 {main}
+[06-Jan-2020 12:38:36 Europe/Copenhagen] Undefined variable: employees 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 61 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(61): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 61, Array)
+        #1 {main}
+[06-Jan-2020 12:46:26 Europe/Copenhagen] Undefined variable: userData 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 32 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(32): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 32, Array)
+        #1 {main}
+[06-Jan-2020 12:46:31 Europe/Copenhagen] Undefined variable: userData 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 32 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(32): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 32, Array)
+        #1 {main}
+[22-Jan-2020 19:59:29 Europe/Copenhagen] Undefined variable: user 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 53 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(53): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 53, Array)
+        #1 {main}
+[23-Jan-2020 12:28:23 Europe/Copenhagen] Undefined index: action 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 10 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(10): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 10, Array)
+        #1 {main}
+[23-Jan-2020 12:28:59 Europe/Copenhagen] Undefined variable: action 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 31 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(31): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 31, Array)
+        #1 {main}
+[23-Jan-2020 12:29:08 Europe/Copenhagen] Undefined variable: teamName 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 36 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(36): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 36, Array)
+        #1 {main}
+[23-Jan-2020 12:44:52 Europe/Copenhagen] Undefined variable: userType 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudUserStats.php, 45 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudUserStats.php(45): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 45, Array)
+        #1 {main}
+[23-Jan-2020 15:09:24 Europe/Copenhagen] Undefined index: id 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php, 62 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php(62): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 62, Array)
+        #1 {main}
+[23-Jan-2020 14:16:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iomediad/public_html/fitforkids/modules/modal/crudUser.php on line 120
+[23-Jan-2020 14:16:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iomediad/public_html/fitforkids/modules/modal/crudUser.php on line 120
+[23-Jan-2020 14:16:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/iomediad/public_html/fitforkids/modules/modal/crudUser.php on line 120
+[23-Jan-2020 17:37:30 Europe/Copenhagen] Undefined variable: media 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 52 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(52): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 52, Array)
+        #1 {main}
+[23-Jan-2020 18:25:17 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 50 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(50): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 50, Array)
+        #1 {main}
+[23-Jan-2020 18:25:28 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 50 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(50): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 50, Array)
+        #1 {main}
+[23-Jan-2020 18:25:35 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 50 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(50): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 50, Array)
+        #1 {main}
+[23-Jan-2020 18:26:18 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 52 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(52): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 52, Array)
+        #1 {main}
+[23-Jan-2020 18:27:35 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 56 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 56, Array)
+        #1 {main}
+[23-Jan-2020 18:27:39 Europe/Copenhagen] Undefined offset: 2 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 56 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 56, Array)
+        #1 {main}
+[23-Jan-2020 18:33:54 Europe/Copenhagen] Table 'iomediad_fitforkids.pg_Teams' doesn't exist query: SELECT  * FROM pg_Teams 
+           /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(NULL)
+        #2 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(5): MysqliDb->get('Teams')
+        #3 {main}
+[23-Jan-2020 18:35:11 Europe/Copenhagen] Table 'iomediad_fitforkids.pg_Teams' doesn't exist query: SELECT  * FROM pg_Teams 
+           /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php, 1819 
+        #0 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(1427): MysqliDb->_prepareQuery()
+        #1 /home/iomediad/public_html/fitforkids/includes/plugins/PHP-MySQLi-Database-Class-master/MysqliDb.php(600): MysqliDb->_buildQuery(NULL)
+        #2 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(5): MysqliDb->get('Teams')
+        #3 {main}
+[27-Jan-2020 11:04:55 Europe/Copenhagen] Undefined index: id 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php, 63 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php(63): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 63, Array)
+        #1 {main}
+[27-Jan-2020 11:05:11 Europe/Copenhagen] Undefined index: id 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php, 63 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php(63): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 63, Array)
+        #1 {main}
+[27-Jan-2020 11:09:07 Europe/Copenhagen] Undefined index: id 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php, 63 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudMedia.php(63): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 63, Array)
+        #1 {main}
+[27-Jan-2020 11:37:37 Europe/Copenhagen] Undefined variable: userId 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 76 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(76): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 76, Array)
+        #1 {main}
+[17-Feb-2020 14:06:49 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 89 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/iomediad/...', 89, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(89): in_array(1, '')
+        #2 {main}
+[17-Feb-2020 14:23:25 Europe/Copenhagen] in_array() expects parameter 2 to be array, string given 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php, 93 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'in_array() expe...', '/home/iomediad/...', 93, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/modal/crudTeam.php(93): in_array(1, '1,700,698')
+        #2 {main}
+[17-Feb-2020 15:55:22 Europe/Copenhagen] Array to string conversion 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 56 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(56): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/iomediad/...', 56, Array)
+        #1 {main}
+[17-Feb-2020 15:57:31 Europe/Copenhagen] Array to string conversion 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 30 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Array to string...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[17-Feb-2020 16:23:50 Europe/Copenhagen] Undefined offset: 1 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 30 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(30): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 30, Array)
+        #1 {main}
+[17-Feb-2020 16:24:48 Europe/Copenhagen] substr() expects parameter 1 to be string, array given 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 41 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(2, 'substr() expect...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(41): substr(Array, 0, -1)
+        #2 {main}
+[17-Feb-2020 16:26:28 Europe/Copenhagen] Undefined offset: 1 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 68 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(68): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 68, Array)
+        #1 {main}
+[17-Feb-2020 16:26:39 Europe/Copenhagen] Undefined offset: 1 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 68 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(68): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 68, Array)
+        #1 {main}
+[17-Feb-2020 23:46:11 Europe/Copenhagen] Undefined variable: user 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudUserStats.php, 161 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudUserStats.php(161): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 161, Array)
+        #1 {main}
+[26-Feb-2020 06:34:00 Europe/Copenhagen] Undefined index: statid 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudUserCounseling.php, 44 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudUserCounseling.php(44): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 44, Array)
+        #1 {main}
+[26-Feb-2020 13:50:32 Europe/Copenhagen] Undefined variable: us 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php, 18 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 18, Array)
+        #1 {main}
+[26-Feb-2020 12:58:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php on line 39
+[26-Feb-2020 12:58:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php on line 39
+[26-Feb-2020 12:59:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/iomediad/public_html/fitforkids/modules/modal/crudTeamMembers.php on line 39
+[02-Mar-2020 22:04:00 Europe/Copenhagen] Undefined variable: childType 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 94 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(94): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 94, Array)
+        #1 {main}
+[23-Mar-2020 14:55:16 Europe/Copenhagen] Undefined offset: 1 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 121 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(121): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 121, Array)
+        #1 {main}
+[23-Mar-2020 14:56:12 Europe/Copenhagen] Undefined offset: 1 
+           /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php, 121 
+        #0 /home/iomediad/public_html/fitforkids/modules/modal/crudChild.php(121): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined offse...', '/home/iomediad/...', 121, Array)
+        #1 {main}

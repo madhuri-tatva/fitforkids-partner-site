@@ -1,0 +1,67 @@
+[30-Dec-2019 14:06:41 Europe/Copenhagen] Undefined index: Category 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 4 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Dec-2019 14:07:11 Europe/Copenhagen] Undefined index: Category 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 4 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(4): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 4, Array)
+        #1 {main}
+[30-Dec-2019 14:46:57 Europe/Copenhagen] require(/modules/lists/list-comments.php?threadId=1): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(/module...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:47:19 Europe/Copenhagen] require(modules/lists/list-comments.php?threadId=1): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(modules...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:47:32 Europe/Copenhagen] require(../modules/lists/list-comments.php?threadId=1): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(../modu...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:47:42 Europe/Copenhagen] require(../modules/lists/list-comments.php): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(../modu...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:47:51 Europe/Copenhagen] require(modules/lists/list-comments.php): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(modules...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:48:05 Europe/Copenhagen] require(/modules/lists/list-comments.php): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(/module...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:48:22 Europe/Copenhagen] A session had already been started - ignoring session_start() 
+           /home/iomediad/public_html/fitforkids/includes/config.php, 7 
+        #0 [internal function]: php_error\ErrorHandler->php_error\{closure}(8, 'A session had a...', '/home/iomediad/...', 7, Array)
+        #1 /home/iomediad/public_html/fitforkids/includes/config.php(7): session_start()
+        #2 /home/iomediad/public_html/fitforkids/modules/lists/list-comments.php(2): include('/home/iomediad/...')
+        #3 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require('/home/iomediad/...')
+        #4 {main}
+[30-Dec-2019 14:48:34 Europe/Copenhagen] Undefined index: threadId 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-comments.php, 3 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-comments.php(3): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 3, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require('/home/iomediad/...')
+        #2 {main}
+[30-Dec-2019 14:48:55 Europe/Copenhagen] require(../../modules/lists/list-comments.php?threadId=1): failed to open stream: No such file or directory 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 41 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): php_error\ErrorHandler->php_error\{closure}(2, 'require(../../m...', '/home/iomediad/...', 41, Array)
+        #1 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(41): require()
+        #2 {main}
+[30-Dec-2019 14:50:12 Europe/Copenhagen] Undefined index: threadId 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 42 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(42): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 42, Array)
+        #1 {main}
+[30-Dec-2019 14:50:27 Europe/Copenhagen] Undefined index: message 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 61 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(61): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined index...', '/home/iomediad/...', 61, Array)
+        #1 {main}
+[23-Jan-2020 22:02:58 Europe/Copenhagen] Undefined variable: userData 
+           /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php, 18 
+        #0 /home/iomediad/public_html/fitforkids/modules/lists/list-threads.php(18): php_error\ErrorHandler->php_error\{closure}(8, 'Undefined varia...', '/home/iomediad/...', 18, Array)
+        #1 {main}

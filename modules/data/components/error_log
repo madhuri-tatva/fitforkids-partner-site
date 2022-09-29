@@ -1,0 +1,12 @@
+[20-Feb-2019 10:53:24 UTC] PHP Warning:  include(../../includes/config.php): failed to open stream: No such file or directory in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:24 UTC] PHP Warning:  include(../../includes/config.php): failed to open stream: No such file or directory in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:24 UTC] PHP Warning:  include(): Failed opening '../../includes/config.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:24 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 32
+[20-Feb-2019 10:53:27 UTC] PHP Warning:  include(../../includes/config.php): failed to open stream: No such file or directory in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:27 UTC] PHP Warning:  include(../../includes/config.php): failed to open stream: No such file or directory in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:27 UTC] PHP Warning:  include(): Failed opening '../../includes/config.php' for inclusion (include_path='.
+;
+; Windows: \path1') in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 2
+[20-Feb-2019 10:53:27 UTC] PHP Fatal error:  Call to a member function where() on null in /home/optyio/public_html/modules/data/components/dashboardChart.php on line 32
