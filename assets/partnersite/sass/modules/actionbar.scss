@@ -1,0 +1,26 @@
+.actions {
+
+    .cta {
+        margin-right: 6px;
+        display: inline-block;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        @media(max-width:767px) {
+            width: 48.7%;
+            margin-bottom: 10px;
+
+            &:nth-child(2) {
+                margin-right: 0px;
+                margin-bottom: 10px;
+                float: right;
+            }
+        }
+    }
+
+    .right {
+        float: right;
+    }
+}

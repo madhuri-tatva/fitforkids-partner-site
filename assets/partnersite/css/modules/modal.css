@@ -1,0 +1,117 @@
+.modal {
+  text-align: center;
+}
+
+.modal .modal-dialog {
+  width: 600px !important;
+}
+
+.modal .modal-content {
+  border-radius: 0px;
+  box-shadow: none;
+  border: none;
+}
+
+.modal .modal-header {
+  padding: 20px;
+}
+
+.modal .modal-header .close {
+  margin-top: 3px;
+}
+
+.modal .modal-body {
+  padding: 20px;
+  background: #F8F9F9;
+}
+
+.modal .form-control {
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.modal .form-group:last-child {
+  margin-bottom: 0px;
+}
+
+.modal .form-group .col-sm-6 {
+  padding-left: 0px;
+}
+
+.modal .form-group .col-sm-5:last-child {
+  padding-left: 0px;
+}
+
+.modal .form-group .checkbox {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.modal .form-group .checkbox label {
+  font-weight: 400;
+}
+
+.modal .form-group textarea {
+  resize: none;
+  border-radius: 3px;
+}
+
+.modal .form-group .col-xs-4 {
+  padding-left: 0px;
+  padding-right: 7.5px;
+}
+
+.modal .form-group .col-xs-8 {
+  padding-right: 0px;
+  padding-left: 7.5px;
+}
+
+.modal .form-group .dropdown .caret {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.modal .form-group .dropdown .btn {
+  width: 100%;
+  color: #9A9A9A;
+  text-align: left;
+  border-radius: 3px;
+}
+
+.modal .form-group .dropdown .dropdown-menu {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal .cta {
+  height: 34px;
+}
+
+.modal label {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+  .modal.in .modal-dialog {
+    width: 85%;
+    margin-top: 50px;
+  }
+}

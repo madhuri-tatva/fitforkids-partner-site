@@ -1,0 +1,115 @@
+.sorting {
+  margin-bottom: 15px;
+  padding: 0px 25px;
+}
+
+@media (max-width: 767px) {
+  .sorting {
+    margin-bottom: 0px;
+    padding: 15px;
+  }
+}
+
+.sorting:last-child {
+  padding-top: 0px;
+}
+
+.sorting .col-sm-3 {
+  display: table;
+  position: relative;
+}
+
+.sorting .col-sm-3 .vertical-align {
+  height: 33px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sorting h2 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.sorting .col-sm-9 {
+  text-align: right;
+  height: 33px;
+}
+
+.sorting .search {
+  width: 200px;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .sorting .search {
+    width: auto;
+    float: left;
+  }
+}
+
+.sorting .search input {
+  border-radius: 3px;
+  box-shadow: none;
+  border-color: #D3D7D8;
+  height: 33px;
+}
+
+.sorting .search input:focus {
+  border-right: none;
+}
+
+.sorting .search .btn {
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0px;
+  margin-left: -1px;
+  border-color: #D3D7D8;
+  height: 33px;
+}
+
+.sorting .search .btn:hover, .sorting .search .btn:focus {
+  background-color: #D3D7D8;
+}
+
+.sorting .search .btn:hover .fa, .sorting .search .btn:focus .fa {
+  color: white !important;
+}
+
+.sorting .search .fa {
+  color: #D3D7D8;
+}
+
+.sorting .page {
+  display: inline-block;
+  float: right;
+  margin-left: 25px;
+}
+
+.sorting .page span {
+  margin-right: 5px;
+  color: #696969;
+}
+
+.sorting .page .fa:nth-child(2) {
+  background: #edf0f1;
+  padding: 9px;
+  margin-right: 3px;
+  border-radius: 3px;
+  color: #696969;
+  border: 1px solid #edf0f1;
+  height: 33px;
+}
+
+.sorting .page .fa:last-child {
+  background: #edf0f1;
+  padding: 9px;
+  border-radius: 3px;
+  color: #696969;
+  border: 1px solid #edf0f1;
+  height: 33px;
+}
+
+.outer {
+  text-align: right;
+}

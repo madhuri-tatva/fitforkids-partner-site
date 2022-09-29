@@ -1,0 +1,19 @@
+.fc {
+    .fc-view-container {
+        .fc-head {
+            .fc-widget-header {
+                color: #7e7e7e;
+                border: none;
+            }
+        }
+    }
+
+    .fc-today {
+        background: #edf0f1;
+    }
+
+    .fc-week {
+        height: 0px !important;
+        min-height: 120px !important;
+    }
+}

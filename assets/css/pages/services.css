@@ -1,0 +1,73 @@
+.services {
+  padding: 0px;
+}
+
+.services thead tr th {
+  padding: 15px 0px;
+  color: #696969;
+  font-weight: 600;
+  border-color: #E7E7E7;
+  border-top: 1px solid #edf0f1 !important;
+  border-bottom: 1px solid #edf0f1;
+}
+
+.services thead tr th:first-child {
+  padding-left: 25px;
+}
+
+.services thead tr th .fa {
+  margin-left: 8px;
+  color: #D4E0E4;
+}
+
+@media (max-width: 767px) {
+  .services thead tr th .fa {
+    display: none;
+  }
+}
+
+.services tbody tr:nth-child(even) {
+  background-color: #edf0f1;
+}
+
+.services tbody tr:last-child {
+  border-bottom: 1px solid #EDF0F1;
+}
+
+.services tbody tr td {
+  padding: 16px 0px;
+  border: none;
+  color: #7e7e7e;
+}
+
+.services tbody tr td .fa-pencil-square-o {
+  color: #696969;
+  margin-right: 15px;
+}
+
+.services tbody tr td .fa-times-circle-o {
+  color: #da5a45;
+}
+
+.services tbody tr td:first-child {
+  padding-left: 25px;
+  color: #222728;
+  font-weight: 500;
+}
+
+.services tbody tr td:first-child a {
+  color: #222728;
+}
+
+.services tbody tr td:first-child a:hover, .services tbody tr td:first-child a:focus {
+  text-decoration: none;
+}
+
+.services tbody tr td:last-child {
+  padding-right: 25px;
+  text-align: right;
+}
+
+.services .search {
+  margin-right: 0px;
+}

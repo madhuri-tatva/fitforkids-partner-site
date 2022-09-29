@@ -1,0 +1,10 @@
+@import url(common.css);
+@import url(application.css);
+@import url(pages/customers.css);
+@import url(pages/services.css);
+@import url(modules/actionbar.css);
+@import url(modules/buttons.css);
+@import url(modules/calendar.css);
+@import url(modules/modal.css);
+@import url(modules/sorting.css);
+@import url(modules/tabs.css);

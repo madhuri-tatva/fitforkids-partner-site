@@ -1,0 +1,20 @@
+#opty-preview .parent.fixed {
+    min-height: 1px;
+}
+
+#opty-preview .parent.fixed .col .inner {
+    min-height: 1px;
+}
+
+#opty-preview .content {
+    display: flex;
+    margin: 0 auto;
+}
+
+#opty-preview .col {
+    height: 100%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 5px;
+}

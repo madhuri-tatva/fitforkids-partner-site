@@ -1,0 +1,127 @@
+.modal {
+    text-align: center;
+
+    .modal-dialog {
+        width: 600px !important;
+    }
+
+    .modal-content {
+        border-radius: 0px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .modal-header {
+        padding: 20px;
+
+        .close {
+            margin-top: 3px;
+        }
+    }
+
+    .modal-body {
+        padding: 20px;
+        background: #F8F9F9;
+    }
+
+    .form-control {
+        border-radius: 3px;
+        box-shadow: none;
+    }
+
+    .form-group {
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        .col-sm-6 {
+            padding-left: 0px;
+        }
+
+        .col-sm-5 {
+
+            &:last-child {
+                padding-left: 0px;
+            }
+        }
+
+        .checkbox {
+            display: inline-block;
+            margin-right: 25px;
+
+            label {
+                font-weight: 400;
+            }
+        }
+
+        textarea {
+            resize: none;
+            border-radius: 3px;
+        }
+
+        .col-xs-4 {
+            padding-left: 0px;
+            padding-right: 7.5px;
+        }
+
+        .col-xs-8 {
+            padding-right: 0px;
+            padding-left: 7.5px;
+        }
+
+        .dropdown {
+
+            .caret {
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            .btn {
+                width: 100%;
+                color: #9A9A9A;
+                text-align: left;
+                border-radius: 3px;
+            }
+
+            .dropdown-menu {
+                width: 100%;
+                border-radius: 3px;
+                box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            }
+        }
+    }
+
+    .cta {
+        height: 34px;
+    }
+
+    label {
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+@media(max-width:767px) {
+
+    .modal.in .modal-dialog {
+        width: 85%;
+        margin-top: 50px;
+    }
+}

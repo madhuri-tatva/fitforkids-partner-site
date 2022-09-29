@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="410px" viewBox="0 0 1440 410" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="410"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="screen2-copy" transform="translate(0.000000, -1740.000000)">
+            <g id="Group-8" transform="translate(0.000000, 1740.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <polygon id="Path-4" fill="#F2F3F4" opacity="0.601797" mask="url(#mask-2)" points="5.68434189e-14 273 5.68434189e-14 135.434868 37.34375 0.466297659 105.382812 58.4023438 148.0282 71.0931838 176.685425 135.434868 228.34375 94.2734375 683.132813 361.097656"></polygon>
+                <path d="M943.441329,350.204454 L234.34375,398.789062 L353.972476,319.662919 L37.34375,297.96875 L435.207031,130 L469.667217,152.793034 L505.992188,160.828125 L538.40947,197.670581 L563.613281,181 L648.629387,216.891849 L722.34375,228 L752.482391,254.013305 L850.599685,215.48367 L895.246537,201 L925.126421,166.18938 L1014.61328,107 L1195.60965,183.412516 L1244.61328,151 L1440,234.048228 L1440,410 L915.34375,368.789063 L943.441329,350.204454 L943.441329,350.204454 Z M951.608273,344.802584 L1046.1874,282.245022 L814.33901,286.850651 L951.608273,344.802584 Z" id="Shape" fill="#EEEFF0" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

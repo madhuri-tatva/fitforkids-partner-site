@@ -1,0 +1,113 @@
+.sorting {
+    margin-bottom: 15px;
+    padding: 0px 25px;
+
+    @media(max-width:767px){
+        margin-bottom: 0px;
+        padding: 15px;
+    }
+
+    &:last-child {
+        padding-top: 0px;
+    }
+
+    .col-sm-3 {
+        display: table;
+        position: relative;
+
+        .vertical-align {
+            height: 33px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .col-sm-9 {
+        text-align: right;
+        height: 33px;
+    }
+    
+    .search {
+        width: 200px;
+        display: inline-block;
+
+        @media(max-width:767px){
+            width: auto;
+            float: left;
+        }
+
+        input {
+            border-radius: 3px;
+            box-shadow: none;
+            border-color: #D3D7D8;
+            height: 33px;
+
+            &:focus {
+                border-right: none;
+            }
+        }
+
+        .btn {
+            border-radius: 3px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: 0px;
+            margin-left: -1px;
+            border-color: #D3D7D8;
+            height: 33px;
+
+            &:hover, &:focus {
+                background-color: #D3D7D8;
+
+                .fa {
+                    color: white !important;
+                }
+            }
+        }
+
+        .fa {
+            color: #D3D7D8;
+        }
+    }
+
+    .page {
+        display:inline-block;
+        float: right;
+        margin-left: 25px;
+
+        span {
+            margin-right: 5px;
+            color: #696969;
+        }
+
+        .fa {
+            &:nth-child(2) {
+                background: #edf0f1;
+                padding: 9px;
+                margin-right: 3px;
+                border-radius: 3px;
+                color: #696969;
+                border: 1px solid #edf0f1;
+                height: 33px;
+            }
+
+            &:last-child {
+                background: #edf0f1;
+                padding: 9px;
+                border-radius: 3px;
+                color: #696969;
+                border: 1px solid #edf0f1;
+                height: 33px;
+            }
+        }
+    }
+}
+
+.outer {
+    text-align: right;
+}

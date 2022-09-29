@@ -1,0 +1,23 @@
+body {
+    font-family: "proxima-nova",sans-serif;
+    color: #222728;
+    font-size: 14px;
+}
+
+/* no padding bottom */
+.npb {
+    padding-bottom: 0px;
+}
+
+/* Same width on each column in table */
+table {
+    table-layout: fixed;
+}
+
+/* Bootstrap small class */
+.small, small {
+    float: right;
+    color: #7e7e7e;
+    margin-top: 5px;
+    font-size: 12px;
+}

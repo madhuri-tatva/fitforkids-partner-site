@@ -1,0 +1,93 @@
+.tabs {
+    padding: 0px 25px 25px 25px;
+
+    .nav-tabs {
+        border-bottom: 1px solid #EDF0F1;
+
+        li.active a {
+            border-color: #edf0f1;
+            border-radius: 0px;
+            border-top: 2px solid #da5a45;
+            border-bottom: 1px solid white;
+            background-color: white;
+            color: #da5a45;
+
+            &:hover {
+                border-color: #edf0f1;
+                border-top: 2px solid #da5a45;
+                border-bottom: 1px solid white;
+            }
+        }
+
+        li {
+            margin-right: 3px;
+
+            a {
+                color: #222728;
+                background-color: #edf0f1;
+                font-weight: 500;
+                padding: 16px 32px;
+                border-radius: 0px;
+
+                &:hover {
+                    border-color: #eee #eee #EDF0F1;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        border: 1px solid #EDF0F1;
+        padding: 20px;
+        border-top: 0px;
+        background-color: white;
+
+        h3 {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 30px;
+
+            &:nth-child(3) {
+                border-top: 1px solid #edf0f1;
+                padding-top: 30px;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+
+            input {
+                border-radius: 3px;
+                box-shadow: none;
+
+                &:nth-child(2) {
+                    margin-top: 5px;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 10px;
+            }
+
+            .control-label {
+                text-align: left;
+                font-weight: 500;
+                padding-top: 0px;
+
+                small {
+                    font-weight: 400;
+                    float: none;
+                    display: block;
+                }
+            }
+        }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-top: 1px solid #EDF0F1;
+        }
+    }
+}
